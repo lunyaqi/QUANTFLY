@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/QUANT_FLY.iml" filepath="$PROJECT_DIR$/.idea/QUANT_FLY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../QUANTFLY/.idea/QUANTFLY.iml" filepath="$PROJECT_DIR$/../QUANTFLY/.idea/QUANTFLY.iml" />
     </modules>
   </component>
 </project>
