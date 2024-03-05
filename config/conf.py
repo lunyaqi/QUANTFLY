@@ -6,8 +6,9 @@ POSTGRES_CONFIG = {
     'user': 'postgres',
     'password': 'postgres'
 }
+PARENT_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-BASE_LOG_PATH = f'/logs'
+BASE_LOG_PATH = os.path.join(PARENT_PATH,f'logs')
 if not os.path.exists(BASE_LOG_PATH):
     os.makedirs(BASE_LOG_PATH)
 

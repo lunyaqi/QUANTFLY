@@ -10,10 +10,7 @@ logging.basicConfig(
     format='%(asctime)s.%(msecs)03d [%(levelname)s] [%(module)s] [%(funcName)s] %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S', level=logging.INFO,
 )
-CURR_PATH = os.path.dirname(os.path.abspath(__file__))
-
 parent_path = dirname(dirname(abspath(__file__)))
-sqls_path = os.path.join(parent_path, 'sqls')
 
 
 logger_datacube = logging.getLogger('datacube')

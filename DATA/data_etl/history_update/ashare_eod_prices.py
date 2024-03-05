@@ -2,7 +2,6 @@ import akshare as ak
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
-
 from Utils.utils import convert_to_datetime
 
 def extract_stock_eod_price_history(start_date, end_date):
