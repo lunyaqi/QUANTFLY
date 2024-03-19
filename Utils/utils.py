@@ -8,8 +8,16 @@ import pandas as pd
 import numpy as np
 import pymysql
 from Utils import logger
-
-
+import time
+def conv_time(ct):
+    '''
+    conv_time(1476374400000) --> '20161014000000.000'
+    '''
+    local_time = time.localtime(ct / 1000)
+    data_head = time.strftime('%Y%m%d%H%M%S', local_time)
+    data_secs = (ct - int(ct)) * 1000
+    time_stamp = '%s.%03d' % (data_head, data_secs)
+    return time_stamp
 def _convert_to_int(query_date):
 	# for one element, not list
 	if isinstance(query_date, int) or isinstance(query_date, np.int64) or isinstance(query_date, np.int32):

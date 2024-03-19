@@ -3,7 +3,6 @@ import logging
 import os
 from logging.handlers import TimedRotatingFileHandler
 from os.path import dirname, abspath
-
 from config.conf import DATA_LOG_PATH, FACTOR_LOG_PATH
 
 logging.basicConfig(
@@ -15,13 +14,13 @@ parent_path = dirname(dirname(abspath(__file__)))
 
 logger_datacube = logging.getLogger('datacube')
 filehandler_datacube = TimedRotatingFileHandler(DATA_LOG_PATH, 'D', 10, 100)
-logger_datacube.suffix = "%Y%m%d.log"
 # %Y%m%d_%H%M%S
 logger_datacube.addHandler(filehandler_datacube)
+logger_datacube.suffix = "%Y%m%d.log"
 
 
 logger_factor = logging.getLogger('factor')
 filehandler_factor = TimedRotatingFileHandler(FACTOR_LOG_PATH, 'D', 10, 100)
 logger_factor.suffix = "%Y%m%d.log"
 # %Y%m%d_%H%M%S
-logger_datacube.addHandler(filehandler_factor)
+logger_factor.addHandler(filehandler_factor)
