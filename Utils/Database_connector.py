@@ -1,9 +1,14 @@
+import csv
+import io
+
 import psycopg2
 from sqlalchemy import create_engine
 import pandas as pd
 from config.conf import POSTGRES_CONFIG
 from functools import wraps
 import psycopg2.extras
+
+
 def singleton(cls):
     instances = {}
 
@@ -12,7 +17,45 @@ def singleton(cls):
         if cls not in instances:
             instances[cls] = cls(*args, **kw)
         return instances[cls]
+
     return get_instance
+
+
+def psql_insert_copy(table, conn, keys, data_iter):  # mehod
+    """
+    Execute SQL statement inserting data
+
+    Parameters
+    ----------
+    table : pandas.io.sql.SQLTable
+    conn : sqlalchemy.engine.Engine or sqlalchemy.engine.Connection
+    keys : list of str
+        Column names
+    data_iter : Iterable that iterates the values to be inserted
+    """
+    # gets a DBAPI connection that can provide a cursor
+    dbapi_conn = conn.connection
+    with dbapi_conn.cursor() as cur:
+        s_buf = io.StringIO()
+        writer = csv.writer(s_buf)
+        writer.writerows(data_iter)
+        s_buf.seek(0)
+
+        columns = ', '.join('"{}"'.format(k) for k in keys)
+        if table.schema:
+            table_name = '{}.{}'.format(table.schema, table.name)
+        else:
+            table_name = table.name
+
+        sql = 'COPY {} ({}) FROM STDIN WITH CSV'.format(
+            table_name, columns)
+        cur.copy_expert(sql=sql, file=s_buf)
+
+
+def insert_df_to_postgres(df: pd.DataFrame, table_name: str):
+    client = PostgresClient()
+    df.to_sql(table_name, con=client.engine, index=False, if_exists='append')
+
 
 @singleton
 class PostgresClient(object):
@@ -48,7 +91,7 @@ class PostgresClient(object):
 
     def insert_dataframe(self, table_name, df, method='append'):
         try:
-            df.to_sql(table_name, self.engine, if_exists=method, index=False)
+            df.to_sql(table_name, self.engine, if_exists=method, index=False, method=psql_insert_copy)
         except Exception as e:
             print(e)
 

@@ -1,5 +1,19 @@
 import os
 from datetime import datetime,timedelta
+
+zz_index_list = ['000001.SH',
+                 '000016.SH',
+                 '000300.SH',
+                 '000688.SH',
+                 '000852.SH',
+                 '000905.SH',
+                 '000906.SH',
+                 '000985.SH'
+                 ]
+gz_index_list = ['399001.SZ',
+                 '399006.SZ',
+                 '399106.SZ']
+
 today = datetime.today()
 today_str = today.strftime("%Y%m%d")
 today_int = int(today.strftime('%Y%m%d'))
