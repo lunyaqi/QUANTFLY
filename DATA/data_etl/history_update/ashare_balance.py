@@ -1,9 +1,11 @@
+import datetime
+
 import pandas as pd
 from tqdm import tqdm
 from xtquant import xtdata
-import datetime
+
+from Utils.Database_connector import insert_df_to_postgres
 from Utils.logger import logger_datacube
-from Utils.Database_connector import  insert_df_to_postgres
 
 
 def extract_stock_balance_history():

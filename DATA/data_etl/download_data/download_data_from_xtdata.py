@@ -1,8 +1,11 @@
 import datetime
-from Utils.logger import logger_datacube
-from xtquant import xtdata
 
-from config.conf import today_str
+from tqdm import tqdm
+from xtquant import xtdata
+from multiprocessing import Pool
+
+from Config.conf import today_str
+from Utils.logger import logger_datacube
 
 sector_list = ['上期所',
                '上证A股',
@@ -44,6 +47,15 @@ def on_progress(data):
     print(data)
 
 
+def download_stock_price(args):
+    stock_code, period, start_date, end_date = args
+    print(stock_code)
+    try:
+        xtdata.download_history_data(stock_code, period, start_time=start_date, end_time=end_date, incrementally=True)
+    except Exception as e:
+        logger_datacube.error(f"Error download history Price Data for {stock_code}!,{e}")
+
+
 def download_period_price_data(sector_name='沪深A股', period='1d', start_date='', end_date=None):
     """
     下载历史K线数据，period支持"tick, 1m, 5m, 1d"
@@ -61,8 +73,10 @@ def download_period_price_data(sector_name='沪深A股', period='1d', start_date
     logger_datacube.info(f"{sector_name}| {period} | Price Data | {start_date}-{end_date} | Download Begin")
 
     try:
-        xtdata.download_history_data2(stock_list, period, start_time=start_date, end_time=end_date,
-                                      callback=on_progress)
+        with Pool(16) as p:
+            p.map(download_stock_price, [(stock_code, period, start_date, end_date) for stock_code in stock_list])
+        # xtdata.download_history_data(stock_list, period, start_time=start_date, end_time=end_date,
+        #                               callback=on_progress)
 
         end_time = datetime.datetime.now()
         logger_datacube.info(
@@ -70,7 +84,7 @@ def download_period_price_data(sector_name='沪深A股', period='1d', start_date
             f"Cost Time ={end_time - start_time} ")
 
     except Exception as e:
-        logger_datacube.error(f"Error download history Price Data!,{e}")
+        logger_datacube.error(f"Error download {start_date}-{end_date++} Price Data!,{e}")
 
 
 def download_period_financial_data(sector_name='沪深A股', start_date='', end_date=None):
@@ -95,7 +109,7 @@ def download_period_financial_data(sector_name='沪深A股', start_date='', end_
 
     try:
         xtdata.download_financial_data2(stock_list,
-                                        table_list=[],
+                                        table_list=['Balance', 'Income', 'CashFlow', 'Capital', 'PershareIndex'],
                                         start_time=start_date, end_time=end_date, callback=on_progress)
         end_time = datetime.datetime.now()
         logger_datacube.info(
@@ -126,10 +140,10 @@ def download_daily_data(start_date: str, end_date: str):
     """
     download_period_price_data(sector_name='沪深A股', period='1d', start_date=start_date, end_date=end_date)
     download_period_price_data(sector_name='沪深A股', period='1m', start_date=start_date, end_date=end_date)
-    download_period_price_data(sector_name='沪深A股', period='5m', start_date=start_date, end_date=end_date)
-    download_period_price_data(sector_name='沪深A股', period='tick', start_date=start_date, end_date=end_date)
+    # download_period_price_data(sector_name='沪深A股', period='5m', start_date=start_date, end_date=end_date)
+    # download_period_price_data(sector_name='沪深A股', period='tick', start_date=start_date, end_date=end_date)
     download_period_financial_data(sector_name='沪深A股', start_date=start_date, end_date=end_date)
 
 
 if __name__ == '__main__':
-    download_history_data(today_str)
+    download_daily_data(today_str, today_str)

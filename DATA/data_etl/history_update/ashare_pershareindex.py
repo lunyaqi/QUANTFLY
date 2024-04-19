@@ -1,29 +1,33 @@
+import datetime
+
 import pandas as pd
 from tqdm import tqdm
 from xtquant import xtdata
-import datetime
+
+from Utils.Database_connector import insert_df_to_postgres
 from Utils.logger import logger_datacube
-from Utils.Database_connector import  insert_df_to_postgres
 
 '''
 A股股票每股指标表
 数据来源:xtdata
 '''
+
+
 def extract_stock_pershareindex_history():
     start_time = datetime.datetime.now()
     try:
         ashare_list = xtdata.get_stock_list_in_sector('沪深A股')
         financial_data = xtdata.get_financial_data(ashare_list, table_list=[],
-                                                   start_time='', end_time='',report_type='report_time')
+                                                   start_time='', end_time='', report_type='report_time')
         pershareindex_df = pd.DataFrame()
         for ticker in tqdm(ashare_list):
             financial_ori_df = pd.DataFrame(financial_data[ticker]['PershareIndex'])
             financial_ori_df['ticker'] = ticker
             pershareindex_df = pd.concat([pershareindex_df, financial_ori_df], axis=0)
         pershareindex_df = pershareindex_df.rename(columns={
-            'm_stateTypeCode':'m_state_typecode',
-            'm_coverPeriod':'m_cover_period',
-            'm_industryCode':'m_industry_code',
+            'm_stateTypeCode': 'm_state_typecode',
+            'm_coverPeriod': 'm_cover_period',
+            'm_industryCode': 'm_industry_code',
             'm_netinterestpershareindex': 'm_net_interest_pershareindex',
             'm_netFeesCommissions': 'm_net_fees_commissions',
             'm_insuranceBusiness': 'm_insurance_business',

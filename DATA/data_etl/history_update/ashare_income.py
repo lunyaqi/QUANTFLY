@@ -1,14 +1,18 @@
+import datetime
+
 import pandas as pd
 from tqdm import tqdm
 from xtquant import xtdata
-import datetime
+
+from Utils.Database_connector import insert_df_to_postgres
 from Utils.logger import logger_datacube
-from Utils.Database_connector import  insert_df_to_postgres
 
 '''
 A股股票利润表
 数据来源:xtdata
 '''
+
+
 def extract_stock_income_history():
     start_time = datetime.datetime.now()
     try:
@@ -21,9 +25,9 @@ def extract_stock_income_history():
             financial_ori_df['ticker'] = ticker
             income_df = pd.concat([income_df, financial_ori_df], axis=0)
         income_df = income_df.rename(columns={
-            'm_stateTypeCode':'m_state_typecode',
-            'm_coverPeriod':'m_cover_period',
-            'm_industryCode':'m_industry_code',
+            'm_stateTypeCode': 'm_state_typecode',
+            'm_coverPeriod': 'm_cover_period',
+            'm_industryCode': 'm_industry_code',
             'm_netinterestIncome': 'm_net_interest_income',
             'm_netFeesCommissions': 'm_net_fees_commissions',
             'm_insuranceBusiness': 'm_insurance_business',

@@ -1,9 +1,11 @@
+import datetime
+
 import pandas as pd
 from tqdm import tqdm
 from xtquant import xtdata
-import datetime
-from Utils.logger import logger_datacube
+
 from Utils.Database_connector import insert_df_to_postgres
+from Utils.logger import logger_datacube
 
 
 def extract_stock_1min_price_history(start_date, end_date):

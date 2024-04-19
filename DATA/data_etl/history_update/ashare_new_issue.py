@@ -1,11 +1,13 @@
-import pandas as pd
 import datetime
+
 import akshare as ak
-from Utils.logger import logger_datacube
+import pandas as pd
+
+from Config.conf import today_format
 from Utils.Database_connector import insert_df_to_postgres
+from Utils.logger import logger_datacube
 from Utils.utils import add_exchange_suffix, \
     convert_to_datetime
-from config.conf import today_format
 
 '''
 A股新股历史数据

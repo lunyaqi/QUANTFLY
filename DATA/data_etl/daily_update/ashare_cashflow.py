@@ -1,17 +1,20 @@
+import datetime
+
 import pandas as pd
 from tqdm import tqdm
 from xtquant import xtdata
-import datetime
+
+from Config.conf import today_str
+from Utils.Database_connector import insert_df_to_postgres
 from Utils.logger import logger_datacube
-from Utils.Database_connector import PostgresClient, insert_df_to_postgres
-from config.conf import today_str
 
 
 def extract_ashare_cashflow_daily(start_date: str, end_date: str):
     start_time = datetime.datetime.now()
     try:
         ashare_list = xtdata.get_stock_list_in_sector('沪深A股')
-        financial_data = xtdata.get_financial_data(ashare_list, table_list=['cashflow'], start_time=start_date, end_time=end_date,
+        financial_data = xtdata.get_financial_data(ashare_list, table_list=['cashflow'], start_time=start_date,
+                                                   end_time=end_date,
                                                    report_type='report_time')
         cashflow_df = pd.DataFrame()
         for ticker in tqdm(ashare_list):
@@ -45,11 +48,12 @@ def extract_ashare_cashflow_daily(start_date: str, end_date: str):
         insert_df_to_postgres(cashflow_df, table_name='ashare_cashflow')
         end_time = datetime.datetime.now()
         logger_datacube.info(
-            f'[Daily] Successfully insert ashare_cashflow  data,{start_date}-{end_date} ,cost:{end_time - start_time},lens={len(cashflow_df)}')
+            f'[DAILY] Successfully insert ashare_cashflow  data,{start_date}-{end_date} ,cost:{end_time - start_time},lens={len(cashflow_df)}')
 
     except Exception as err:
-        logger_datacube.error(f'[ERROR]:{err}')
+        logger_datacube.error(f'[DAILY] ashare_cashflow:{err}')
         return
 
+
 if __name__ == '__main__':
-    extract_ashare_cashflow_daily(start_date=today_str,end_date=today_str)
+    extract_ashare_cashflow_daily(start_date=today_str, end_date=today_str)

@@ -1,15 +1,13 @@
+import datetime
 import time
 
-import pandas as pd
-from tqdm import tqdm
-from xtquant import xtdata
-import datetime
-from Utils.logger import logger_datacube
-from Utils.Database_connector import PostgresClient, insert_df_to_postgres
 import akshare as ak
+import pandas as pd
 
+from Config.conf import today_format
+from Utils.Database_connector import insert_df_to_postgres
+from Utils.logger import logger_datacube
 from Utils.utils import convert_datetime_column_format, convert_to_datetime, add_exchange_suffix
-from config.conf import today_str, today_format
 
 '''
 同花顺概念板块成分股
@@ -20,7 +18,7 @@ from config.conf import today_str, today_format
 
 def _get_sector_cons(sector_name, sector_symbol, open_date):
     # 重试100次
-    for attempt in range(100):
+    for attempt in range(10):
         try:
             stock_board_concept_cons_ths_df = ak.stock_board_concept_cons_ths(symbol=sector_name)
             stock_board_concept_cons_ths_df = stock_board_concept_cons_ths_df[['代码']]

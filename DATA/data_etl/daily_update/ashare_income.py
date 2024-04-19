@@ -1,16 +1,20 @@
+import datetime
+
 import pandas as pd
 from tqdm import tqdm
 from xtquant import xtdata
-import datetime
+
+from Config.conf import today_str
+from Utils.Database_connector import insert_df_to_postgres
 from Utils.logger import logger_datacube
-from Utils.Database_connector import  insert_df_to_postgres
-from config.conf import today_str
+
 
 def extract_ashare_income_daily(start_date: str, end_date: str):
     start_time = datetime.datetime.now()
     try:
         ashare_list = xtdata.get_stock_list_in_sector('沪深A股')
-        financial_data = xtdata.get_financial_data(ashare_list, table_list=['income'], start_time=start_date, end_time=end_date,
+        financial_data = xtdata.get_financial_data(ashare_list, table_list=['income'], start_time=start_date,
+                                                   end_time=end_date,
                                                    report_type='report_time')
         income_df = pd.DataFrame()
         for ticker in tqdm(ashare_list):
@@ -18,12 +22,12 @@ def extract_ashare_income_daily(start_date: str, end_date: str):
             financial_ori_df['ticker'] = ticker
             income_df = pd.concat([income_df, financial_ori_df], axis=0)
         if income_df.empty:
-            logger_datacube.info(f'[Daily] time range:{start_date}-{end_date} Financial cashflow daily data:未更新')
+            logger_datacube.info(f'[DAILY] ashare_income: {start_date}-{end_date} 未更新')
             return
         income_df = income_df.rename(columns={
-            'm_stateTypeCode':'m_state_typecode',
-            'm_coverPeriod':'m_cover_period',
-            'm_industryCode':'m_industry_code',
+            'm_stateTypeCode': 'm_state_typecode',
+            'm_coverPeriod': 'm_cover_period',
+            'm_industryCode': 'm_industry_code',
             'm_netinterestIncome': 'm_net_interest_income',
             'm_netFeesCommissions': 'm_net_fees_commissions',
             'm_insuranceBusiness': 'm_insurance_business',
@@ -45,12 +49,12 @@ def extract_ashare_income_daily(start_date: str, end_date: str):
         end_time = datetime.datetime.now()
 
         logger_datacube.info(
-            f'[DAILY] successfully insert ashare_income,{start_date}-{end_date},cost: {end_time - start_time}')
+            f'[DAILY] successfully insert ashare_income,{start_date}-{end_date},cost: {end_time - start_time},lens={len(income_df)}')
 
     except Exception as err:
-        logger_datacube.error(f'[DAILY]:{err}')
+        logger_datacube.error(f'[DAILY] ashare_income:{err}')
         return
 
 
 if __name__ == '__main__':
-    extract_ashare_income_daily(start_date=today_str,end_date=today_str)
+    extract_ashare_income_daily(start_date=today_str, end_date=today_str)

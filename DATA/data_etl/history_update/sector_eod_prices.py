@@ -1,13 +1,11 @@
+import datetime
 import time
 
-import pandas as pd
-from tqdm import tqdm
-from xtquant import xtdata
-import datetime
-from Utils.logger import logger_datacube
-from Utils.Database_connector import PostgresClient, insert_df_to_postgres
 import akshare as ak
+import pandas as pd
 
+from Utils.Database_connector import insert_df_to_postgres
+from Utils.logger import logger_datacube
 from Utils.utils import convert_datetime_column_format
 
 '''
@@ -50,7 +48,7 @@ def extract_sector_eod_prices_history():
 
         sector_eod_prices = pd.concat(sector_eod_prices_dfs, ignore_index=True)
         sector_eod_prices.columns = ['datetime', 'open', 'high', 'low', 'close', 'volume', 'amount', 'sector_name',
-                                      'sector_code']
+                                     'sector_code']
         sector_eod_prices = convert_datetime_column_format(sector_eod_prices)
         # 插入数据库
 

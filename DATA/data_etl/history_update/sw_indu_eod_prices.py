@@ -1,15 +1,13 @@
-import time
-
-import pandas as pd
-from tqdm import tqdm
-from xtquant import xtdata
 import datetime
-from Utils.logger import logger_datacube
-from Utils.Database_connector import  insert_df_to_postgres
-import akshare as ak
-
-from Utils.utils import convert_to_datetime
 from multiprocessing.dummy import Pool as ThreadPool
+
+import akshare as ak
+import pandas as pd
+
+from Utils.Database_connector import insert_df_to_postgres
+from Utils.logger import logger_datacube
+from Utils.utils import convert_to_datetime
+
 
 def get_indu_hist_sw_df(args):
     indu_ticker, start_date, end_date, symbol_all, name_all = args
@@ -22,6 +20,7 @@ def get_indu_hist_sw_df(args):
         return None
     indu_hist_sw_df['indu_name'] = name_all[symbol_all.index(indu_ticker)]
     return indu_hist_sw_df
+
 
 def extract_sw_indu_eod_prices_history(start_date, end_date):
     start_time = datetime.datetime.now()
@@ -37,13 +36,14 @@ def extract_sw_indu_eod_prices_history(start_date, end_date):
             name_all.extend(df['行业名称'].to_list())
 
         with ThreadPool(8) as pool:
-            dfs = pool.map(get_indu_hist_sw_df, [(indu_ticker, start_date, end_date, symbol_all, name_all) for indu_ticker in symbol_all])
+            dfs = pool.map(get_indu_hist_sw_df,
+                           [(indu_ticker, start_date, end_date, symbol_all, name_all) for indu_ticker in symbol_all])
         dfs = [df for df in dfs if df is not None]
         sw_hist_total = pd.concat(dfs, ignore_index=True)
         sw_hist_total.columns = ['indu_code', 'datetime', 'close', 'open', 'high', 'low', 'volume', 'amount',
                                  'indu_name']
-        sw_hist_total['volume'] = sw_hist_total['volume'].astype(float) *100000000.0
-        sw_hist_total['amount'] = sw_hist_total['amount'].astype(float) *100000000.0
+        sw_hist_total['volume'] = sw_hist_total['volume'].astype(float) * 100000000.0
+        sw_hist_total['amount'] = sw_hist_total['amount'].astype(float) * 100000000.0
         sw_hist_total['datetime'] = convert_to_datetime(sw_hist_total['datetime'])
         # 插入数据库
         insert_df_to_postgres(sw_hist_total, table_name='sw_indu_eod_prices')

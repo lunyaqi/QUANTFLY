@@ -3,7 +3,7 @@ import logging
 import os
 from logging.handlers import TimedRotatingFileHandler
 from os.path import dirname, abspath
-from config.conf import DATA_LOG_PATH, FACTOR_LOG_PATH
+from Config.conf import DATA_LOG_PATH, FACTOR_LOG_PATH
 
 logging.basicConfig(
     format='%(asctime)s.%(msecs)03d [%(levelname)s] [%(module)s] [%(funcName)s] %(message)s',

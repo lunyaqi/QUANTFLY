@@ -1,19 +1,21 @@
-﻿import pandas as pd
+﻿import datetime
+
+import akshare as ak
+import pandas as pd
 from tqdm import tqdm
 from xtquant import xtdata
-import datetime
-import akshare as ak
-from Utils.logger import logger_datacube
+
 from Utils.Database_connector import insert_df_to_postgres
+from Utils.logger import logger_datacube
 from Utils.utils import convert_ticker_to_sina_format, convert_datetime_column_format
 
-'''
+"""
 A股股票日行情
 行情来源:
     xtdata
     turnover,free_float_cap
     数据来源 akshare 新浪财经
-'''
+"""
 
 
 def _calculate_1min_indicators(df, start_time, end_time):
@@ -56,19 +58,19 @@ def _calculate_1min_indicators(df, start_time, end_time):
     grouped_data[vwap_name] = round(grouped_data[vwap_name] / grouped_data[cum_volume_name], 2)
 
     grouped_data = convert_datetime_column_format(grouped_data, column_name='timestamp_column')
-    if start_time == '09:30' and end_time == '15:30':
+    if start_time == '09:30' and end_time == '15:00':
         grouped_data = grouped_data[['datetime', 'vwap']]
     return grouped_data
 
 
 def _get_1min_stock_price(ticker, start_date, end_date):
-    '''
+    """
     获取1分钟数据
     :param ticker:
     :param start_date:
     :param end_date:
     :return:
-    '''
+    """
     price_ori = xtdata.get_local_data(field_list=[], stock_list=[ticker], period='1m', start_time=start_date,
                                       end_time=end_date, count=-1,
                                       dividend_type='none', fill_data=True, data_dir=xtdata.data_dir)
@@ -83,12 +85,12 @@ def _get_1min_stock_price(ticker, start_date, end_date):
 
 
 def _check_limit_status(df, ticker):
-    '''
+    """
     检查涨跌停状态
     :param df:
     :param ticker:
     :return:
-    '''
+    """
     if ticker.startswith('300') or ticker.startswith('688'):
         df['up_limit_price'] = df['pre_close'].apply(lambda x: round((x + 0.0002) * 1.2, 2))
         df['down_limit_price'] = df['pre_close'].apply(lambda x: round((x + 0.0002) * 0.8, 2))
@@ -114,14 +116,14 @@ def _calculate_and_merge_multiple_times(price_df, price_1min_df, time_intervals)
 
 
 def _get_turnover_rate(ticker, start_date, end_date):
-    '''
+    """
     获取turnover,free_float_cap
     数据来源 akshare 新浪财经
     :param ticker:
     :param start_date:
     :param end_date:
     :return:
-    '''
+    """
     symbol = convert_ticker_to_sina_format(ticker)
     akshare_price_df = ak.stock_zh_a_daily(symbol=symbol, start_date=start_date, end_date=end_date)
     akshare_price_df = akshare_price_df[['date', 'outstanding_share', 'turnover']]
@@ -132,12 +134,12 @@ def _get_turnover_rate(ticker, start_date, end_date):
 
 
 def extract_stock_eod_price_history(start_date, end_date):
-    '''
+    """
     Extract stock eod price history from start_date to end_date
     :param start_date:
     :param end_date:
     :return:
-    '''
+    """
     start_time = datetime.datetime.now()
     ashare_list = xtdata.get_stock_list_in_sector('沪深A股')
     for ticker in tqdm(ashare_list):

@@ -2,8 +2,10 @@ import datetime
 
 import akshare as ak
 import pandas as pd
-from Utils.logger import logger_datacube
+
+from Config.conf import gz_index_list, zz_index_list
 from Utils.Database_connector import insert_df_to_postgres
+from Utils.logger import logger_datacube
 from Utils.utils import convert_ticker_to_sina_format
 
 '''
@@ -14,18 +16,7 @@ from Utils.utils import convert_ticker_to_sina_format
 
 def exstract_index_eod_prices_history():
     start_time = datetime.datetime.now()
-    list_all = ['000001.SH',
-                '000011.SH',
-                '000016.SH',
-                '000300.SH',
-                '000688.SH',
-                '000852.SH',
-                '000905.SH',
-                '000985.SH',
-                '399001.SZ',
-                '399006.SZ',
-                '399100.SZ',
-                '399106.SZ']
+    list_all = gz_index_list + zz_index_list
     try:
         dfs = []
         for index_code in list_all:

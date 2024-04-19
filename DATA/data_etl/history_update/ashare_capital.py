@@ -1,10 +1,11 @@
+import datetime
+
 import pandas as pd
 from tqdm import tqdm
 from xtquant import xtdata
-import datetime
-from Utils.logger import logger_datacube
-from Utils.Database_connector import insert_df_to_postgres
 
+from Utils.Database_connector import insert_df_to_postgres
+from Utils.logger import logger_datacube
 
 
 def extract_stock_capital_history():
@@ -19,7 +20,7 @@ def extract_stock_capital_history():
             financial_ori_df['ticker'] = ticker
             capital_df = pd.concat([capital_df, financial_ori_df], axis=0)
         capital_df = capital_df.rename(columns={
-            'freeFloatCapital':'free_float_capital',
+            'freeFloatCapital': 'free_float_capital',
         })
         # 插入数据库
         insert_df_to_postgres(capital_df, table_name='ashare_capital')

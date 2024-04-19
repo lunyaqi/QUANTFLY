@@ -4,7 +4,7 @@ import io
 import psycopg2
 from sqlalchemy import create_engine
 import pandas as pd
-from config.conf import POSTGRES_CONFIG
+from Config.conf import POSTGRES_CONFIG
 from functools import wraps
 import psycopg2.extras
 

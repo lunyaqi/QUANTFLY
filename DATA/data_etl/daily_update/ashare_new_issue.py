@@ -1,13 +1,13 @@
-import pandas as pd
-from tqdm import tqdm
-from xtquant import xtdata
 import datetime
+
 import akshare as ak
-from Utils.logger import logger_datacube
+import pandas as pd
+
+from Config.conf import today_format
 from Utils.Database_connector import insert_df_to_postgres
-from Utils.utils import convert_ticker_to_sina_format, convert_datetime_column_format, add_exchange_suffix, \
+from Utils.logger import logger_datacube
+from Utils.utils import add_exchange_suffix, \
     convert_to_datetime
-from config.conf import today_format
 
 
 def extract_ashare_new_issue_daily(start_date=None, end_date=None):
@@ -17,7 +17,7 @@ def extract_ashare_new_issue_daily(start_date=None, end_date=None):
 
         new_issue_df = new_issue_df[
             ['股票代码', '股票简称', '申购代码', '发行总数', '网上发行', '顶格申购需配市值', '申购上限', '发行价格',
-             '首日收盘价', '申购日期',  '上市日期', '发行市盈率', '行业市盈率',
+             '首日收盘价', '申购日期', '上市日期', '发行市盈率', '行业市盈率',
              '中签率', '询价累计报价倍数', '配售对象报价家数', '连续一字板数量', '涨幅', '每中一签获利']]
 
         new_issue_df = new_issue_df.rename(
@@ -39,15 +39,16 @@ def extract_ashare_new_issue_daily(start_date=None, end_date=None):
                 (new_issue_df['issue_date'] >= convert_to_datetime(start_date)) & (
                         new_issue_df['issue_date'] <= convert_to_datetime(end_date))]
         if new_issue_df.empty:
-            logger_datacube.info(f'[DAILY]time range:{start_date} to {end_date} new issue data:未更新')
+            logger_datacube.info(f'[DAILY]ashare_new_issue :{start_date} to {end_date} 未更新')
             return
         insert_df_to_postgres(new_issue_df, table_name='ashare_new_issue')
         end_time = datetime.datetime.now()
-        logger_datacube.info(f'[DAILY]successfully insert ashare_new_issue,{start_date}-{end_date},cost time:{end_time - start_time}')
+        logger_datacube.info(
+            f'[DAILY]successfully insert ashare_new_issue,{start_date}-{end_date},cost time:{end_time - start_time},lens={len(new_issue_df)}')
     except Exception as err:
-        logger_datacube.error(f'[ERROR]:{err}')
+        logger_datacube.error(f'[DAILY] ashare_new_issue:{err}')
         return
 
 
 if __name__ == '__main__':
-    extract_ashare_new_issue_daily(start_date=today_format,end_date=today_format)
+    extract_ashare_new_issue_daily(start_date=today_format, end_date=today_format)
