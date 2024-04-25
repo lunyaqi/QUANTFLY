@@ -1,5 +1,6 @@
 ﻿import datetime
 from multiprocessing.dummy import Pool as ThreadPool
+from retrying import retry
 
 import akshare as ak
 import pandas as pd
@@ -51,7 +52,7 @@ def _calculate_1min_indicators(df, start_time, end_time):
     grouped_data.rename(columns={'timestamp_column': 'datetime'}, inplace=True)
     grouped_data = convert_datetime_column_format(grouped_data, column_name='timestamp_column')
     if start_time == '09:30' and end_time == '15:00':
-        grouped_data =grouped_data.rename(columns={vwap_name: 'vwap'})
+        grouped_data = grouped_data.rename(columns={vwap_name: 'vwap'})
         grouped_data = grouped_data[['datetime', 'vwap']]
     del grouped_data['datetime']
     return grouped_data
@@ -84,6 +85,7 @@ def _get_1min_stock_price(ticker_list, date):
 i = 1
 
 
+@retry(stop_max_attempt_number=5)
 def _get_turnover_data_for_ticker(ticker, date):
     """
     获取akshare数据
@@ -96,7 +98,8 @@ def _get_turnover_data_for_ticker(ticker, date):
     try:
         akshare_price_df = ak.stock_zh_a_daily(symbol=symbol, start_date=date, end_date=date)
         akshare_price_df = akshare_price_df[['date', 'outstanding_share', 'turnover']]
-        akshare_price_df = akshare_price_df.rename(columns={'outstanding_share': 'free_float_cap', 'date': 'datetime','turnover':'turnover_rate'})
+        akshare_price_df = akshare_price_df.rename(
+            columns={'outstanding_share': 'free_float_cap', 'date': 'datetime', 'turnover': 'turnover_rate'})
         akshare_price_df = convert_datetime_column_format(akshare_price_df)
         akshare_price_df['ticker'] = ticker
         return akshare_price_df
@@ -112,7 +115,7 @@ def _get_turnover_df(ticker_list, date):
     :param date:
     :return:
     """
-    pool = ThreadPool(16)
+    pool = ThreadPool(4)
     result = pool.map(lambda x: _get_turnover_data_for_ticker(x, date), ticker_list)
     pool.close()
     pool.join()
@@ -128,9 +131,14 @@ def _check_limit_status(df):
     :param df:
     :return:
     """
-    df['up_limit_price'] = df.apply(lambda row: round((row['pre_close'] + 0.0002) * 1.2, 2) if row['ticker'].startswith('300') or row['ticker'].startswith('688') else round((row['pre_close'] + 0.0002) * 1.1, 2), axis=1)
-    df['down_limit_price'] = df.apply(lambda row: round((row['pre_close'] + 0.0002) * 0.8, 2) if row['ticker'].startswith('300') or row['ticker'].startswith('688') else round((row['pre_close'] + 0.0002) * 0.9, 2), axis=1)
-    df['limit_status'] = df.apply(lambda row: 1 if row['close'] >= row['up_limit_price'] else (-1 if row['close'] <= row['down_limit_price'] else 0), axis=1)
+    df['up_limit_price'] = df.apply(
+        lambda row: round((row['pre_close'] + 0.0002) * 1.2, 2) if row['ticker'].startswith('300') or row[
+            'ticker'].startswith('688') else round((row['pre_close'] + 0.0002) * 1.1, 2), axis=1)
+    df['down_limit_price'] = df.apply(
+        lambda row: round((row['pre_close'] + 0.0002) * 0.8, 2) if row['ticker'].startswith('300') or row[
+            'ticker'].startswith('688') else round((row['pre_close'] + 0.0002) * 0.9, 2), axis=1)
+    df['limit_status'] = df.apply(lambda row: 1 if row['close'] >= row['up_limit_price'] else (
+        -1 if row['close'] <= row['down_limit_price'] else 0), axis=1)
     return df
 
 
@@ -142,16 +150,16 @@ def _calculate_and_merge_multiple_times(price_df, price_1min_df, time_intervals)
     :param time_intervals:
     :return:
     """
-    dfs_tot=[]
+    dfs_tot = []
     for ticker, group_df in price_1min_df.groupby('ticker'):
         dfs = []
         for start_time, end_time in time_intervals:
             tmp_indicator_df = _calculate_1min_indicators(group_df, start_time, end_time)
             dfs.append(tmp_indicator_df)
-        df_tot=pd.concat(dfs,axis=1)
-        df_tot['ticker']=ticker
+        df_tot = pd.concat(dfs, axis=1)
+        df_tot['ticker'] = ticker
         dfs_tot.append(df_tot)
-    dfs_tot=pd.concat(dfs_tot,axis=0)
+    dfs_tot = pd.concat(dfs_tot, axis=0)
     result_df = pd.merge(price_df, dfs_tot, on=['ticker'], how='left')
     return result_df
 
@@ -194,7 +202,7 @@ def extract_stock_eod_price_daily(date):
     try:
         ashare_list = xtdata.get_stock_list_in_sector('沪深A股')
         price_ori = xtdata.get_local_data(field_list=[], stock_list=ashare_list, period='1d', start_time=date,
-                                           end_time=date, count=-1, dividend_type='none', fill_data=True)
+                                          end_time=date, count=-1, dividend_type='none', fill_data=True)
         dfs = []
         for ticker, df in price_ori.items():
             df['ticker'] = ticker  # 添加股票代码列
@@ -209,7 +217,7 @@ def extract_stock_eod_price_daily(date):
                      'openInterest': 'open_interest', 'suspendFlag': 'suspend_flag'})
         # 获取后复权历史数据
         price_adj = xtdata.get_local_data(field_list=[], stock_list=ashare_list, period='1d', start_time=date,
-                                           end_time=date, count=-1, dividend_type='back', fill_data=True)
+                                          end_time=date, count=-1, dividend_type='back', fill_data=True)
         dfs = []
         for ticker, df in price_adj.items():
             df['ticker'] = ticker  # 添加股票代码列
@@ -218,7 +226,8 @@ def extract_stock_eod_price_daily(date):
         price_adj_df = pd.concat(dfs, axis=0)
         price_adj_df = price_adj_df.reset_index()
         price_adj_df = price_adj_df.rename(
-            columns={'index': 'datetime', 'open': 'open_adj', 'high': 'high_adj', 'low': 'low_adj', 'close': 'close_adj',
+            columns={'index': 'datetime', 'open': 'open_adj', 'high': 'high_adj', 'low': 'low_adj',
+                     'close': 'close_adj',
                      'preClose': 'pre_close_adj'})
         price_adj_df = price_adj_df[
             ['datetime', 'ticker', 'open_adj', 'high_adj', 'low_adj', 'close_adj', 'pre_close_adj']]
@@ -262,4 +271,6 @@ def extract_stock_eod_price_daily(date):
 
 if __name__ == '__main__':
     # 本程序是为了日度更新ashare_eod_prices表
+    # xtdata.get_instrument_detail('688981.SH', iscomplete=True)
+
     extract_stock_eod_price_daily('20240416')

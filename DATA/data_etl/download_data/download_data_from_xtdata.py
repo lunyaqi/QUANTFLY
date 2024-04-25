@@ -73,7 +73,7 @@ def download_period_price_data(sector_name='沪深A股', period='1d', start_date
     logger_datacube.info(f"{sector_name}| {period} | Price Data | {start_date}-{end_date} | Download Begin")
 
     try:
-        with Pool(16) as p:
+        with Pool(8) as p:
             p.map(download_stock_price, [(stock_code, period, start_date, end_date) for stock_code in stock_list])
         # xtdata.download_history_data(stock_list, period, start_time=start_date, end_time=end_date,
         #                               callback=on_progress)
@@ -84,7 +84,7 @@ def download_period_price_data(sector_name='沪深A股', period='1d', start_date
             f"Cost Time ={end_time - start_time} ")
 
     except Exception as e:
-        logger_datacube.error(f"Error download {start_date}-{end_date++} Price Data!,{e}")
+        logger_datacube.error(f"Error download {start_date}-{end_date} Price Data!,{e}")
 
 
 def download_period_financial_data(sector_name='沪深A股', start_date='', end_date=None):

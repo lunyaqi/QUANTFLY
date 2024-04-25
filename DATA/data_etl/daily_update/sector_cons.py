@@ -34,7 +34,7 @@ def _get_sector_cons(sector_name, sector_symbol, open_date):
             time.sleep(5)
             continue
     # 如果是最后一次尝试，那么记录错误并跳过这个概念板块
-    logger_datacube.error(f'[Error] {sector_name} 未获取到行情数据')
+    logger_datacube.error(f'[Error] {sector_name} 未获取到概念成分股数据')
     return None
 
 

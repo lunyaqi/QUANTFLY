@@ -1,854 +1,950 @@
-hi,2024-04-16
-2024-04-16 start update
-沪深A股| 1d | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 1d | Price Data | 20240416-20240416 | Download End, Cost Time =0:00:00.007999 
-沪深A股| 1m | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 1m | Price Data | 20240416-20240416 | Download End, Cost Time =0:00:00.007004 
-沪深A股| 5m | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 5m | Price Data | 20240416-20240416 | Download End, Cost Time =0:00:00.009000 
-沪深A股| tick | Price Data | 20240416-20240416 | Download Begin
-沪深A股| tick | Price Data | 20240416-20240416 | Download End, Cost Time =0:00:00.008999 
-沪深A股| Financial Data | 20240416-20240416 | Download Begin
-沪深A股 | Financial Data | 20240416-20240416 | Download End: Cost Time =0:03:42.433883 
-[DAILY] ashare_1min_prices:func:requestFromCache, error:{ "error id" : 10054, "error" : "远程主机强迫关闭了一个现有的连接。", "isNetError" : true }
-[DAILY] ashare_eod_prices:20240416数据未更新!
-[DAILY] ashare_balance 20240416-20240416:未更新
-[DAILY] ashare_cashflow:20240416-20240416 :未更新
-[Daily] time range:20240416-20240416 Financial cashflow daily data:未更新
-[DAILY] ashare_capital:module 'xtquant.xtdata' has no attribute 'get_ashare_list_in_sector'
-[DAILY]successfully insert index_eod_prices,2024-04-16-2024-04-16,cost time = 0:00:36.393959,lens=0
-[DAILY]index_weight:Excel file format cannot be determined, you must specify an engine manually.
-[DAILY]sector_cons:HTTPSConnectionPool(host='q.10jqka.com.cn', port=443): Max retries exceeded with url: /gn/index/field/addtime/order/desc/page/2/ajax/1/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
-[ERROR]:HTTPSConnectionPool(host='q.10jqka.com.cn', port=443): Max retries exceeded with url: /gn/index/field/addtime/order/desc/page/1/ajax/1/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
-[DAILY] sw_indu_cons:HTTPSConnectionPool(host='www.swhyresearch.com', port=443): Max retries exceeded with url: /institute-sw/api/index_publish/details/component_stocks/?swindexcode=801110&page=1&page_size=10000 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
-[DAILY] sw_indu_eod_prices:HTTPSConnectionPool(host='legulegu.com', port=443): Max retries exceeded with url: /stockdata/sw-industry-overview (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
-[DAILY] ashare_st:Expecting value: line 1 column 1 (char 0)
-[DAILY]time range:2024-04-16 to 2024-04-16 new issue data:未更新
-2024-04-16 update done!,cost time:0:08:55.932261
-[DAILY] index_weight: 20240416 - 20240416 no data!
-[DAILY] Successfully insert  ashare_st,20240416 ,cost: 0:00:39.369810
-2024-04-16 start update
-沪深A股| 1d | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 1d | Price Data | 20240416-20240416 | Download End, Cost Time =0:00:00.006000 
-沪深A股| 1m | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 1m | Price Data | 20240416-20240416 | Download End, Cost Time =0:00:00.011004 
-沪深A股| 5m | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 5m | Price Data | 20240416-20240416 | Download End, Cost Time =0:00:00.005000 
-沪深A股| tick | Price Data | 20240416-20240416 | Download Begin
-沪深A股| tick | Price Data | 20240416-20240416 | Download End, Cost Time =0:00:00.004000 
-沪深A股| Financial Data | 20240416-20240416 | Download Begin
-2024-04-16 start update
-沪深A股| 1d | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 1d | Price Data | 20240416-20240416 | Download End, Cost Time =0:00:00.005004 
-沪深A股| 1m | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 1m | Price Data | 20240416-20240416 | Download End, Cost Time =0:00:00.004998 
-沪深A股| 5m | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 5m | Price Data | 20240416-20240416 | Download End, Cost Time =0:00:00.004001 
-沪深A股| tick | Price Data | 20240416-20240416 | Download Begin
-沪深A股| tick | Price Data | 20240416-20240416 | Download End, Cost Time =0:00:00.005000 
-沪深A股| Financial Data | 20240416-20240416 | Download Begin
-沪深A股 | Financial Data | 20240416-20240416 | Download End: Cost Time =0:06:46.981897 
-[DAILY] ashare_1min:func:requestFromCache, error:{ "error id" : 10054, "error" : "远程主机强迫关闭了一个现有的连接。", "isNetError" : true }
-[DAILY] ashare_eod_prices:20240416数据未更新!
-[DAILY] ashare_balance 20240416-20240416:未更新
-[DAILY] ashare_cashflow:20240416-20240416 :未更新
-[DAILY] ashare_income: 20240416-20240416 未更新
-[DAILY] successfully insert ashare_capital,20240416-20240416 ,cost: 0:00:02.674041,lens=14
-[DAILY]successfully insert index_eod_prices,2024-04-16-2024-04-16,cost time = 0:00:04.815905,lens=10
-[DAILY] index_weight: 20240416 - 20240416 no data!
-概念板块成分股数据无更新！  2024-04-16 - 2024-04-16
-[Error] 第0次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第1次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第2次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第3次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第4次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第5次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第6次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第7次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第8次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第9次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 首发新股 未获取到行情数据
-[DAILY] successfully inserted sector_eod_prices 2024-04-16-2024-04-16 data,cost: 0:32:51.770024
-[DAILY] sw_indu_cons:2024-04-16-2024-04-16,no data!
-[DAILY] successfully insert sw_indu_cons,2024-04-16-2024-04-16,cost time: 0:02:03.005163,lens=0
-[DAILY] successfully insert sw_indu_eod_prices,2024-04-16-2024-04-16,cost time: 0:00:53.787261,lens=413
-[DAILY] Successfully insert  ashare_st,20240416 ,cost: 0:00:00.031025
-[DAILY]ashare_new_issue :2024-04-16 to 2024-04-16 未更新
-2024-04-16 update done!,cost time:0:45:10.807840
-沪深A股| Financial Data | 20100101- | Download Begin
-沪深A股| 1d | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 1d | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 1d | Price Data | 20240416-20240416 | Download End, Cost Time =0:00:00.005000 
-沪深A股| 1m | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 1m | Price Data | 20240416-20240416 | Download End, Cost Time =0:00:00.004002 
-沪深A股| 5m | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 5m | Price Data | 20240416-20240416 | Download End, Cost Time =0:00:00.003999 
-沪深A股| tick | Price Data | 20240416-20240416 | Download Begin
-沪深A股| tick | Price Data | 20240416-20240416 | Download End, Cost Time =0:00:00.005000 
-沪深A股| 1d | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 1d | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 1d | Price Data | 20240416-20240416 | Download End, Cost Time =0:02:29.706701 
-沪深A股| 1m | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 1m | Price Data | 20240416-20240416 | Download Begin
-Error download history Price Data!,download_history_data() takes from 0 to 1 positional arguments but 4 were given
-沪深A股| tick | Price Data | 20240416-20240416 | Download Begin
-Error download history Price Data!,download_history_data() takes from 0 to 1 positional arguments but 4 were given
-沪深A股| 1m | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 1m | Price Data | 20240416-20240416 | Download Begin
-沪深A股| 1m | Price Data | 20240416-20240416 | Download End, Cost Time =0:27:23.170477 
-沪深A股| tick | Price Data | 20240416-20240416 | Download Begin
-沪深A股| tick | Price Data | 20240416-20240416 | Download End, Cost Time =0:03:32.957227 
-2024-04-16 start update
-[DAILY] ashare_1min:func:requestFromCache, error:{ "error id" : 10054, "error" : "远程主机强迫关闭了一个现有的连接。", "isNetError" : true }
-2024-04-16 start update
-2024-04-16 start update
-[DAILY] ashare_1min:(psycopg2.errors.UniqueViolation) 错误:  重复键违反唯一约束"ashare_1min_pkey"
-DETAIL:  键值"("timestamp", ticker)=(2024-04-16 09:30:00, 601882.SH)" 已经存在
-
-[SQL: INSERT INTO ashare_1min (timestamp, ticker, open_adj, high_adj, low_adj, close_adj, pre_close_adj, open, high, low, close, volume, amount, settlement_price, open_interest, pre_close, suspend_flag, datetime) VALUES (%(timestamp__0)s, %(ticker__0)s, %( ... 343882 characters truncated ... _price__999)s, %(open_interest__999)s, %(pre_close__999)s, %(suspend_flag__999)s, %(datetime__999)s)]
-[parameters: {'pre_close_adj__0': 30.167, 'open__0': 28.650000000000002, 'low_adj__0': 29.987000000000002, 'open_adj__0': 29.987000000000002, 'ticker__0': '601882.SH', 'high_adj__0': 29.987000000000002, 'amount__0': 277905.0, 'suspend_flag__0': 0, 'datetime__0': datetime.datetime(2024, 4, 16, 0, 0), 'pre_close__0': 28.830000000000002, 'low__0': 28.650000000000002, 'close__0': 28.650000000000002, 'high__0': 28.650000000000002, 'close_adj__0': 29.987000000000002, 'volume__0': 97, 'settlement_price__0': 0.0, 'timestamp__0': datetime.datetime(2024, 4, 16, 9, 30), 'open_interest__0': 13, 'pre_close_adj__1': 29.987, 'open__1': 28.599999999999998, 'low_adj__1': 29.857, 'open_adj__1': 29.936999999999998, 'ticker__1': '601882.SH', 'high_adj__1': 30.157, 'amount__1': 2652160.0, 'suspend_flag__1': 0, 'datetime__1': datetime.datetime(2024, 4, 16, 0, 0), 'pre_close__1': 28.65, 'low__1': 28.52, 'close__1': 28.8, 'high__1': 28.82, 'close_adj__1': 30.137, 'volume__1': 926, 'settlement_price__1': 0.0, 'timestamp__1': datetime.datetime(2024, 4, 16, 9, 31), 'open_interest__1': 13, 'pre_close_adj__2': 30.137, 'open__2': 28.77, 'low_adj__2': 29.837, 'open_adj__2': 30.107, 'ticker__2': '601882.SH', 'high_adj__2': 30.107, 'amount__2': 941369.0, 'suspend_flag__2': 0, 'datetime__2': datetime.datetime(2024, 4, 16, 0, 0), 'pre_close__2': 28.8, 'low__2': 28.5, 'close__2': 28.5, 'high__2': 28.77, 'close_adj__2': 29.837 ... 17900 parameters truncated ... 'ticker__997': '600740.SH', 'high_adj__997': 60.89858000000002, 'amount__997': 1100541.0, 'suspend_flag__997': 0, 'datetime__997': datetime.datetime(2024, 4, 16, 0, 0), 'pre_close__997': 5.1, 'low__997': 5.09, 'close__997': 5.1, 'high__997': 5.1, 'close_adj__997': 60.89858000000002, 'volume__997': 2158, 'settlement_price__997': 0.0, 'timestamp__997': datetime.datetime(2024, 4, 16, 10, 3), 'open_interest__997': 13, 'pre_close_adj__998': 60.89858000000002, 'open__998': 5.1, 'low_adj__998': 60.78433600000002, 'open_adj__998': 60.89858000000002, 'ticker__998': '600740.SH', 'high_adj__998': 61.012824000000016, 'amount__998': 2717265.9999999995, 'suspend_flag__998': 0, 'datetime__998': datetime.datetime(2024, 4, 16, 0, 0), 'pre_close__998': 5.1, 'low__998': 5.09, 'close__998': 5.09, 'high__998': 5.109999999999999, 'close_adj__998': 60.78433600000002, 'volume__998': 5333, 'settlement_price__998': 0.0, 'timestamp__998': datetime.datetime(2024, 4, 16, 10, 4), 'open_interest__998': 13, 'pre_close_adj__999': 60.78433600000002, 'open__999': 5.09, 'low_adj__999': 60.67009200000002, 'open_adj__999': 60.78433600000002, 'ticker__999': '600740.SH', 'high_adj__999': 60.78433600000002, 'amount__999': 853047.0, 'suspend_flag__999': 0, 'datetime__999': datetime.datetime(2024, 4, 16, 0, 0), 'pre_close__999': 5.09, 'low__999': 5.08, 'close__999': 5.09, 'high__999': 5.09, 'close_adj__999': 60.78433600000002, 'volume__999': 1677, 'settlement_price__999': 0.0, 'timestamp__999': datetime.datetime(2024, 4, 16, 10, 5), 'open_interest__999': 13}]
-(Background on this error at: https://sqlalche.me/e/20/gkpj)
-[DAILY] ashare_eod_prices:'DataFrame' object has no attribute 'append'
-2024-04-16 update done!,cost time:0:00:07.400198
-2024-04-16 start update
-[DAILY] ashare_1min:func:requestFromCache, error:{ "error id" : 10054, "error" : "远程主机强迫关闭了一个现有的连接。", "isNetError" : true }
-[DAILY] ashare_eod_prices:20240416数据未更新!
-2024-04-16 update done!,cost time:0:00:45.843211
-2024-04-16 start update
-[DAILY] ashare_1min:(psycopg2.errors.UniqueViolation) 错误:  重复键违反唯一约束"ashare_1min_pkey"
-DETAIL:  键值"("timestamp", ticker)=(2024-04-16 09:30:00, 601882.SH)" 已经存在
-
-[SQL: INSERT INTO ashare_1min (timestamp, ticker, open_adj, high_adj, low_adj, close_adj, pre_close_adj, open, high, low, close, volume, amount, settlement_price, open_interest, pre_close, suspend_flag, datetime) VALUES (%(timestamp__0)s, %(ticker__0)s, %( ... 343882 characters truncated ... _price__999)s, %(open_interest__999)s, %(pre_close__999)s, %(suspend_flag__999)s, %(datetime__999)s)]
-[parameters: {'low_adj__0': 29.987000000000002, 'open__0': 28.650000000000002, 'pre_close__0': 28.830000000000002, 'settlement_price__0': 0.0, 'ticker__0': '601882.SH', 'low__0': 28.650000000000002, 'open_adj__0': 29.987000000000002, 'close__0': 28.650000000000002, 'volume__0': 97, 'open_interest__0': 13, 'timestamp__0': datetime.datetime(2024, 4, 16, 9, 30), 'suspend_flag__0': 0, 'pre_close_adj__0': 30.167, 'high__0': 28.650000000000002, 'amount__0': 277905.0, 'high_adj__0': 29.987000000000002, 'close_adj__0': 29.987000000000002, 'datetime__0': datetime.datetime(2024, 4, 16, 0, 0), 'low_adj__1': 29.857, 'open__1': 28.599999999999998, 'pre_close__1': 28.65, 'settlement_price__1': 0.0, 'ticker__1': '601882.SH', 'low__1': 28.52, 'open_adj__1': 29.936999999999998, 'close__1': 28.8, 'volume__1': 926, 'open_interest__1': 13, 'timestamp__1': datetime.datetime(2024, 4, 16, 9, 31), 'suspend_flag__1': 0, 'pre_close_adj__1': 29.987, 'high__1': 28.82, 'amount__1': 2652160.0, 'high_adj__1': 30.157, 'close_adj__1': 30.137, 'datetime__1': datetime.datetime(2024, 4, 16, 0, 0), 'low_adj__2': 29.837, 'open__2': 28.77, 'pre_close__2': 28.8, 'settlement_price__2': 0.0, 'ticker__2': '601882.SH', 'low__2': 28.5, 'open_adj__2': 30.107, 'close__2': 28.5, 'volume__2': 329, 'open_interest__2': 13, 'timestamp__2': datetime.datetime(2024, 4, 16, 9, 32), 'suspend_flag__2': 0, 'pre_close_adj__2': 30.137, 'high__2': 28.77 ... 17900 parameters truncated ... 'ticker__997': '600740.SH', 'low__997': 5.09, 'open_adj__997': 60.89858000000002, 'close__997': 5.1, 'volume__997': 2158, 'open_interest__997': 13, 'timestamp__997': datetime.datetime(2024, 4, 16, 10, 3), 'suspend_flag__997': 0, 'pre_close_adj__997': 60.89858000000002, 'high__997': 5.1, 'amount__997': 1100541.0, 'high_adj__997': 60.89858000000002, 'close_adj__997': 60.89858000000002, 'datetime__997': datetime.datetime(2024, 4, 16, 0, 0), 'low_adj__998': 60.78433600000002, 'open__998': 5.1, 'pre_close__998': 5.1, 'settlement_price__998': 0.0, 'ticker__998': '600740.SH', 'low__998': 5.09, 'open_adj__998': 60.89858000000002, 'close__998': 5.09, 'volume__998': 5333, 'open_interest__998': 13, 'timestamp__998': datetime.datetime(2024, 4, 16, 10, 4), 'suspend_flag__998': 0, 'pre_close_adj__998': 60.89858000000002, 'high__998': 5.109999999999999, 'amount__998': 2717265.9999999995, 'high_adj__998': 61.012824000000016, 'close_adj__998': 60.78433600000002, 'datetime__998': datetime.datetime(2024, 4, 16, 0, 0), 'low_adj__999': 60.67009200000002, 'open__999': 5.09, 'pre_close__999': 5.09, 'settlement_price__999': 0.0, 'ticker__999': '600740.SH', 'low__999': 5.08, 'open_adj__999': 60.78433600000002, 'close__999': 5.09, 'volume__999': 1677, 'open_interest__999': 13, 'timestamp__999': datetime.datetime(2024, 4, 16, 10, 5), 'suspend_flag__999': 0, 'pre_close_adj__999': 60.78433600000002, 'high__999': 5.09, 'amount__999': 853047.0, 'high_adj__999': 60.78433600000002, 'close_adj__999': 60.78433600000002, 'datetime__999': datetime.datetime(2024, 4, 16, 0, 0)}]
-(Background on this error at: https://sqlalche.me/e/20/gkpj)
-2024-04-16 start update
-[ERROR] Failed to fetch data for ticker 689009.SH on date 20240416: No value to decode
-[ERROR] Failed to fetch data for ticker 601568.SH on date 20240416: HTTPSConnectionPool(host='finance.sina.com.cn', port=443): Read timed out. (read timeout=None)
-[DAILY] successfully inserted ashare_eod_prices, 20240416,cost: 0:09:43.942222, lens= 5116
-2024-04-16 update done!,cost time:0:09:43.963237
-[ERROR] Failed to fetch data for ticker 689009.SH on date 20240416: No value to decode
-[ERROR] Failed to fetch data for ticker 689009.SH on date 20240416: No value to decode
-[DAILY] ashare_eod_prices:'free_float_cap'
-[DAILY] ashare_eod_prices:Index must be DatetimeIndex
-[DAILY] ashare_eod_prices:'timestamp'
-[DAILY] ashare_eod_prices:"['vwap'] not in index"
-[ERROR] Failed to fetch data for ticker 689009.SH on date 20240416: No value to decode
-[DAILY] successfully inserted ashare_eod_prices, 20240416,cost: 0:15:47.644943, lens= 5116
-2024-04-17 start update
-沪深A股| 1m | Price Data | 20240417-20240417 | Download Begin
-沪深A股| 1m | Price Data | 20240417-20240417 | Download End, Cost Time =0:27:46.992385 
-沪深A股| tick | Price Data | 20240417-20240417 | Download Begin
-沪深A股| tick | Price Data | 20240417-20240417 | Download End, Cost Time =0:04:11.377476 
-[DAILY] ashare_1min:func:requestFromCache, error:{ "ErrorID" : 200003, "ErrorMsg" : "timeout" }
-[DAILY] ashare_1min:"['open_adj', 'high_adj', 'low_adj', 'close_adj', 'pre_close_adj'] not in index"
-[DAILY] ashare_1min:'time'
-[DAILY] successfully insert ashare_1min,20240417,cost: 0:01:27.181778
-2024-04-17 start update
-沪深A股| 1d | Price Data | 20240417-20240417 | Download Begin
-沪深A股| 1d | Price Data | 20240417-20240417 | Download End, Cost Time =0:00:43.177382 
-沪深A股| 1m | Price Data | 20240417-20240417 | Download Begin
-沪深A股| 1m | Price Data | 20240417-20240417 | Download End, Cost Time =0:17:48.049292 
-沪深A股| Financial Data | 20240417-20240417 | Download Begin
-沪深A股 | Financial Data | 20240417-20240417 | Download End: Cost Time =0:09:43.370943 
-[DAILY] ashare_1min:(psycopg2.errors.UniqueViolation) 错误:  重复键违反唯一约束"ashare_1min_pkey"
-DETAIL:  键值"("timestamp", ticker)=(2024-04-17 09:30:00, 601882.SH)" 已经存在
+2024-04-21 17:29:54 [ERROR] [sw_indu_eod_prices] [extract_sw_indu_eod_prices_daily] [DAILY] sw_indu_eod_prices:update_df_to_postgres() missing 1 required positional argument: 'unique_key'
+2024-04-21 17:30:39 [ERROR] [sw_indu_eod_prices] [extract_sw_indu_eod_prices_daily] [DAILY] sw_indu_eod_prices:Not an executable object: '\n    INSERT INTO sw_indu_eod_prices (indu_code, indu_name, datetime, open, high, low, close, volume, amount, pct_change)\n    VALUES %s\n    ON CONFLICT (datetime, indu_code)\n    DO UPDATE SET\n        indu_code = EXCLUDED.indu_code, indu_name = EXCLUDED.indu_name, datetime = EXCLUDED.datetime, open = EXCLUDED.open, high = EXCLUDED.high, low = EXCLUDED.low, close = EXCLUDED.close, volume = EXCLUDED.volume, amount = EXCLUDED.amount, pct_change = EXCLUDED.pct_change\n    '
+2024-04-21 17:33:47 [ERROR] [sw_indu_eod_prices] [extract_sw_indu_eod_prices_daily] [DAILY] sw_indu_eod_prices:Not an executable object: '\n    INSERT INTO sw_indu_eod_prices (indu_code, indu_name, datetime, open, high, low, close, volume, amount, pct_change)\n    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)\n    ON CONFLICT (datetime, indu_code)\n    DO UPDATE SET\n        indu_code = EXCLUDED.indu_code, indu_name = EXCLUDED.indu_name, datetime = EXCLUDED.datetime, open = EXCLUDED.open, high = EXCLUDED.high, low = EXCLUDED.low, close = EXCLUDED.close, volume = EXCLUDED.volume, amount = EXCLUDED.amount, pct_change = EXCLUDED.pct_change\n    '
+2024-04-21 17:34:45 [INFO] [download_data_from_xtdata] [download_period_price_data] 沪深A股| 1m | Price Data | 20240419-20240419 | Download End, Cost Time =0:32:54.070153 
+2024-04-21 17:34:45 [INFO] [download_data_from_xtdata] [download_period_financial_data] 沪深A股| Financial Data | 20240419-20240419 | Download Begin
+2024-04-21 17:34:56 [ERROR] [sw_indu_eod_prices] [extract_sw_indu_eod_prices_daily] [DAILY] sw_indu_eod_prices:'<' not supported between instances of 'Timestamp' and 'str'
+2024-04-21 17:35:55 [ERROR] [sw_indu_eod_prices] [extract_sw_indu_eod_prices_daily] [DAILY] sw_indu_eod_prices:'<' not supported between instances of 'Timestamp' and 'str'
+2024-04-21 17:37:11 [ERROR] [sw_indu_eod_prices] [extract_sw_indu_eod_prices_daily] [DAILY] sw_indu_eod_prices:'<' not supported between instances of 'Timestamp' and 'str'
+2024-04-21 17:37:49 [ERROR] [sw_indu_eod_prices] [extract_sw_indu_eod_prices_daily] [DAILY] sw_indu_eod_prices:'<' not supported between instances of 'Timestamp' and 'str'
+2024-04-21 17:48:02 [INFO] [download_data_from_xtdata] [download_period_financial_data] 沪深A股 | Financial Data | 20240419-20240419 | Download End: Cost Time =0:13:16.729559 
+2024-04-21 18:01:39 [ERROR] [ashare_1min] [extract_ashare_1min_daily] [DAILY] ashare_1min:(psycopg2.errors.UniqueViolation) 错误:  重复键违反唯一约束"ashare_1min_pkey"
+DETAIL:  键值"("timestamp", ticker)=(2024-04-19 09:30:00, 601882.SH)" 已经存在
 
 [SQL: INSERT INTO ashare_1min (timestamp, open_adj, high_adj, low_adj, close_adj, pre_close_adj, open, high, low, close, volume, amount, settlement_price, open_interest, pre_close, suspend_flag, ticker, datetime) VALUES (%(timestamp__0)s, %(open_adj__0)s,  ... 343882 characters truncated ... open_interest__999)s, %(pre_close__999)s, %(suspend_flag__999)s, %(ticker__999)s, %(datetime__999)s)]
-[parameters: {'low__0': 28.15, 'pre_close__0': 27.96, 'datetime__0': datetime.datetime(2024, 4, 17, 0, 0), 'settlement_price__0': 0.0, 'ticker__0': '601882.SH', 'amount__0': 1750930.0, 'close__0': 28.15, 'timestamp__0': datetime.datetime(2024, 4, 17, 9, 30), 'open__0': 28.15, 'high__0': 28.15, 'pre_close_adj__0': 29.297, 'low_adj__0': 29.487, 'close_adj__0': 29.487, 'volume__0': 622, 'suspend_flag__0': 0, 'open_adj__0': 29.487, 'open_interest__0': 13, 'high_adj__0': 29.487, 'low__1': 28.27, 'pre_close__1': 28.15, 'datetime__1': datetime.datetime(2024, 4, 17, 0, 0), 'settlement_price__1': 0.0, 'ticker__1': '601882.SH', 'amount__1': 2797581.0, 'close__1': 28.35, 'timestamp__1': datetime.datetime(2024, 4, 17, 9, 31), 'open__1': 28.27, 'high__1': 28.47, 'pre_close_adj__1': 29.487, 'low_adj__1': 29.607, 'close_adj__1': 29.687, 'volume__1': 986, 'suspend_flag__1': 0, 'open_adj__1': 29.607, 'open_interest__1': 13, 'high_adj__1': 29.807, 'low__2': 28.19, 'pre_close__2': 28.35, 'datetime__2': datetime.datetime(2024, 4, 17, 0, 0), 'settlement_price__2': 0.0, 'ticker__2': '601882.SH', 'amount__2': 1719691.0, 'close__2': 28.34, 'timestamp__2': datetime.datetime(2024, 4, 17, 9, 32), 'open__2': 28.34, 'high__2': 28.4, 'pre_close_adj__2': 29.687, 'low_adj__2': 29.527, 'close_adj__2': 29.677, 'volume__2': 608 ... 17900 parameters truncated ... 'ticker__997': '600740.SH', 'amount__997': 1248783.0, 'close__997': 5.01, 'timestamp__997': datetime.datetime(2024, 4, 17, 10, 3), 'open__997': 5.02, 'high__997': 5.02, 'pre_close_adj__997': 59.98462800000002, 'low_adj__997': 59.87038400000002, 'close_adj__997': 59.87038400000002, 'volume__997': 2488, 'suspend_flag__997': 0, 'open_adj__997': 59.98462800000002, 'open_interest__997': 13, 'high_adj__997': 59.98462800000002, 'low__998': 5.01, 'pre_close__998': 5.01, 'datetime__998': datetime.datetime(2024, 4, 17, 0, 0), 'settlement_price__998': 0.0, 'ticker__998': '600740.SH', 'amount__998': 114855.0, 'close__998': 5.01, 'timestamp__998': datetime.datetime(2024, 4, 17, 10, 4), 'open__998': 5.01, 'high__998': 5.02, 'pre_close_adj__998': 59.87038400000002, 'low_adj__998': 59.87038400000002, 'close_adj__998': 59.87038400000002, 'volume__998': 229, 'suspend_flag__998': 0, 'open_adj__998': 59.87038400000002, 'open_interest__998': 13, 'high_adj__998': 59.98462800000002, 'low__999': 5.01, 'pre_close__999': 5.01, 'datetime__999': datetime.datetime(2024, 4, 17, 0, 0), 'settlement_price__999': 0.0, 'ticker__999': '600740.SH', 'amount__999': 432483.0, 'close__999': 5.01, 'timestamp__999': datetime.datetime(2024, 4, 17, 10, 5), 'open__999': 5.02, 'high__999': 5.02, 'pre_close_adj__999': 59.87038400000002, 'low_adj__999': 59.87038400000002, 'close_adj__999': 59.87038400000002, 'volume__999': 863, 'suspend_flag__999': 0, 'open_adj__999': 59.98462800000002, 'open_interest__999': 13, 'high_adj__999': 59.98462800000002}]
+[parameters: {'low_adj__0': 29.637, 'datetime__0': datetime.datetime(2024, 4, 19, 0, 0), 'pre_close__0': 28.55, 'close_adj__0': 29.637, 'suspend_flag__0': 0, 'settlement_price__0': 0.0, 'close__0': 28.3, 'high_adj__0': 29.637, 'open__0': 28.3, 'high__0': 28.3, 'volume__0': 300, 'pre_close_adj__0': 29.887, 'low__0': 28.3, 'timestamp__0': datetime.datetime(2024, 4, 19, 9, 30), 'amount__0': 849000.0, 'ticker__0': '601882.SH', 'open_interest__0': 13, 'open_adj__0': 29.637, 'low_adj__1': 29.416999999999998, 'datetime__1': datetime.datetime(2024, 4, 19, 0, 0), 'pre_close__1': 28.3, 'close_adj__1': 29.416999999999998, 'suspend_flag__1': 0, 'settlement_price__1': 0.0, 'close__1': 28.08, 'high_adj__1': 29.637, 'open__1': 28.3, 'high__1': 28.3, 'volume__1': 1871, 'pre_close_adj__1': 29.637, 'low__1': 28.08, 'timestamp__1': datetime.datetime(2024, 4, 19, 9, 31), 'amount__1': 5272260.0, 'ticker__1': '601882.SH', 'open_interest__1': 13, 'open_adj__1': 29.637, 'low_adj__2': 29.377, 'datetime__2': datetime.datetime(2024, 4, 19, 0, 0), 'pre_close__2': 28.08, 'close_adj__2': 29.567, 'suspend_flag__2': 0, 'settlement_price__2': 0.0, 'close__2': 28.23, 'high_adj__2': 29.567, 'open__2': 28.14, 'high__2': 28.23, 'volume__2': 469, 'pre_close_adj__2': 29.416999999999998, 'low__2': 28.04, 'timestamp__2': datetime.datetime(2024, 4, 19, 9, 32) ... 17900 parameters truncated ... 'suspend_flag__997': 0, 'settlement_price__997': 0.0, 'close__997': 5.18, 'high_adj__997': 61.812532000000026, 'open__997': 5.18, 'high__997': 5.18, 'volume__997': 7290, 'pre_close_adj__997': 61.812532000000026, 'low__997': 5.17, 'timestamp__997': datetime.datetime(2024, 4, 19, 10, 3), 'amount__997': 3775380.0, 'ticker__997': '600740.SH', 'open_interest__997': 13, 'open_adj__997': 61.812532000000026, 'low_adj__998': 61.69828800000003, 'datetime__998': datetime.datetime(2024, 4, 19, 0, 0), 'pre_close__998': 5.18, 'close_adj__998': 61.69828800000003, 'suspend_flag__998': 0, 'settlement_price__998': 0.0, 'close__998': 5.17, 'high_adj__998': 61.812532000000026, 'open__998': 5.17, 'high__998': 5.18, 'volume__998': 939, 'pre_close_adj__998': 61.812532000000026, 'low__998': 5.17, 'timestamp__998': datetime.datetime(2024, 4, 19, 10, 4), 'amount__998': 485966.0, 'ticker__998': '600740.SH', 'open_interest__998': 13, 'open_adj__998': 61.69828800000003, 'low_adj__999': 61.69828800000003, 'datetime__999': datetime.datetime(2024, 4, 19, 0, 0), 'pre_close__999': 5.17, 'close_adj__999': 61.812532000000026, 'suspend_flag__999': 0, 'settlement_price__999': 0.0, 'close__999': 5.18, 'high_adj__999': 61.812532000000026, 'open__999': 5.18, 'high__999': 5.18, 'volume__999': 1012, 'pre_close_adj__999': 61.69828800000003, 'low__999': 5.17, 'timestamp__999': datetime.datetime(2024, 4, 19, 10, 5), 'amount__999': 523921.0, 'ticker__999': '600740.SH', 'open_interest__999': 13, 'open_adj__999': 61.812532000000026}]
 (Background on this error at: https://sqlalche.me/e/20/gkpj)
-[ERROR] Failed to fetch data for ticker 689009.SH on date 20240417: No value to decode
-[DAILY] successfully inserted ashare_eod_prices, 20240417,cost: 0:16:00.896148, lens= 5116
-[DAILY] ashare_balance 20240417-20240417:未更新
-[DAILY] ashare_cashflow:20240417-20240417 :未更新
-[DAILY] ashare_income: 20240417-20240417 未更新
-[DAILY] successfully insert ashare_capital,20240417-20240417 ,cost: 0:00:02.728764,lens=13
-[DAILY]successfully insert index_eod_prices,2024-04-17-2024-04-17,cost time = 0:00:04.771962,lens=10
-[DAILY] index_weight: 20240417 - 20240417 no data!
-概念板块成分股数据无更新！  2024-04-17 - 2024-04-17
-[Error] 第0次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第1次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第2次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第3次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第4次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第5次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第6次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第7次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第8次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第9次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 首发新股 未获取到行情数据
-[DAILY] successfully inserted sector_eod_prices 2024-04-17-2024-04-17 data,cost: 0:33:43.755826,len=400
-[DAILY] sw_indu_cons:2024-04-17-2024-04-17,no data!
-[DAILY] successfully insert sw_indu_cons,2024-04-17-2024-04-17,cost time: 0:01:56.161225,lens=0
-[DAILY] sw_indu_eod_prices 801113.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801179.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801114.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801770.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801010.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801782.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801991.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801115.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801950.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801783.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801992.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801960.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801784.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801081.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801180.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801970.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801785.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801143.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801181.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801030.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801083.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801980.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801116.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801183.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801193.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801141.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801040.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801124.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801125.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801194.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801200.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801016.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801084.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801126.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801050.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801127.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801191.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801142.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801128.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801145.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801082.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801080.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801202.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801015.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801129.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801203.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801880.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801085.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801210.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801014.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801131.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801231.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801086.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801204.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801151.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801780.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801110.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801012.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801206.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801132.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801093.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801133.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801218.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801790.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801155.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801711.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801017.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801712.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801018.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801120.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801152.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801219.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801723.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801092.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801713.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801230.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801033.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801721.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801881.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801130.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801724.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801993.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801095.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801722.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801994.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801096.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801726.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801078.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801769.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801710.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801154.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801034.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801995.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801731.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801720.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801741.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850113.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801111.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801733.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801730.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801735.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801890.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801736.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801740.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801742.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801750.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801140.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801112.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801737.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801760.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850326.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801738.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801223.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850354.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801743.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850355.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801744.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801745.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801072.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801153.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801102.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850335.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850122.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850142.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801150.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850362.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801951.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801952.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801962.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850337.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801963.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801156.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850151.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850363.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801160.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850338.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801971.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801074.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801161.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801101.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801972.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801103.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801076.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801981.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850331.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801077.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801982.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850552.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850339.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801104.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801163.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850553.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801764.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801170.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850152.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850332.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801765.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850531.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850154.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850382.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801766.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850111.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850832.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801178.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850172.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850544.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801767.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850372.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851246.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850173.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850135.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851247.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 858811.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850136.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851316.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850181.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851251.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 858812.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850952.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850833.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850333.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850341.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851325.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850812.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851232.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851326.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850343.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851329.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851331.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850381.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851412.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850813.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851413.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850841.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850322.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850853.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850814.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850523.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850815.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850442.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850854.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850861.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851233.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850922.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850912.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851422.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850817.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851271.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851423.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851424.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850818.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850351.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850923.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851425.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850521.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851436.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850924.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850323.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851243.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850324.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850925.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851437.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850522.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851281.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850353.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851282.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851533.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850926.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850551.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850913.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850325.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851438.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851242.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850232.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851534.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851439.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850822.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850233.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851784.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851563.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851785.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851564.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851491.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851786.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851831.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851452.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851112.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850823.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852112.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851116.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851511.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851312.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852021.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851611.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852131.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851612.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859852.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857821.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857831.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850831.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852031.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857841.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851314.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857112.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857851.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851512.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851614.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852032.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851122.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851315.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851616.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851131.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852033.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851521.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857121.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857244.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851617.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852034.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857261.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851610.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851931.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851141.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851522.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852041.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851151.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851523.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857122.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851524.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852062.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851161.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851542.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851631.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852063.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850741.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851782.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852182.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851543.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851941.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851783.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852183.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851922.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857381.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850615.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851241.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857334.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850616.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857382.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851532.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851927.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857336.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850721.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857321.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857352.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850935.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857354.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857323.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852121.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857451.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850726.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857344.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850702.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850703.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850614.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857355.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852111.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857362.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852311.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852226.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859951.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857371.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850727.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850711.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857111.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851041.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852213.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857372.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850936.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 852214.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851042.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857373.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850623.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859632.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850771.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851024.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857641.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857375.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850713.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859633.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850772.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851025.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857221.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857651.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850781.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859711.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851026.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857236.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850782.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850715.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859712.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851027.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857661.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850783.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857674.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859713.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859511.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851787.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850716.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857691.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850784.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859714.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859512.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857692.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859521.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851731.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859721.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859621.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857251.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859811.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857241.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859821.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859622.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850731.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857411.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859631.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 859822.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857421.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857242.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850751.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857431.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 857243.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851721.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850725.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851771.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850728.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851741.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851761.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851711.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851811.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851812.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 851813.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices:Expecting value: line 2 column 1 (char 1)
-[DAILY] Successfully insert  ashare_st,20240417 ,cost: 0:00:00.035662,lens=114
-[DAILY]ashare_new_issue :2024-04-17 to 2024-04-17 未更新
-2024-04-17 update done!,cost time:1:24:19.713577
-[DAILY] sw_indu_eod_prices 801179.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801113.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801770.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801991.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801143.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801950.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801114.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801081.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801960.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801115.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801032.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801116.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801010.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801970.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801180.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801980.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801992.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801141.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801083.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801124.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801125.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801181.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801142.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801036.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801126.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801200.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801016.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801030.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801145.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801127.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801183.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801128.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801084.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801210.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801129.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801151.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801780.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801202.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801131.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801082.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801203.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801155.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801790.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801015.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801040.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801037.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801152.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801038.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801204.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801085.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801039.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801230.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801206.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801014.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801086.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801154.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801050.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801043.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801218.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801132.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801219.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801044.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801710.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801133.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801080.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801993.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801045.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801782.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801720.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801880.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801994.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801783.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801730.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801784.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801110.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801723.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801051.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801890.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801785.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801724.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801012.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801153.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801120.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801740.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801055.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801093.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801726.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801130.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801193.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801750.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801731.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801017.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801733.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801156.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801053.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801735.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801736.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801161.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801054.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801760.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801092.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801018.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801194.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801737.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801078.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801056.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801881.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801738.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801140.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801191.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801769.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801095.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801150.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801096.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801995.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801741.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801072.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801033.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801742.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801163.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801034.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801743.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801178.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801231.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850326.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801744.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801160.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801711.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801745.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850335.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801111.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850337.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801712.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801223.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850113.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801112.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801074.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801101.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801170.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801713.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850354.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850338.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850122.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801102.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801076.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801721.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801103.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801077.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850142.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850355.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801104.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850552.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801722.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801951.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850339.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850832.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801764.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 858811.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801765.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801952.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850553.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 858812.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850382.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850362.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850833.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801962.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850952.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801766.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850531.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850151.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850363.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801963.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 850372.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801767.SI 未获取到行情数据
-[DAILY] sw_indu_eod_prices 801180.SI 未获取到行情数据
-[DAILY] successfully insert sw_indu_eod_prices,2024-04-17-2024-04-17,cost time: 0:01:01.490151,lens=413
-[DAILY] sw_indu_eod_prices:Expecting value: line 1 column 1 (char 0)
-[DAILY] sw_indu_eod_prices:'str' object has no attribute 'capabilities'
-[DAILY] sw_indu_eod_prices:not all arguments converted during string formatting
-[DAILY] sw_indu_eod_prices:not all arguments converted during string formatting
-[DAILY] sw_indu_eod_prices:(psycopg2.errors.UndefinedColumn) 错误:  关系 "sw_indu_eod_prices" 的 "index_code" 字段不存在
-LINE 1: INSERT INTO sw_indu_eod_prices (index_code, indu_name, datet...
-                                        ^
+2024-04-21 18:03:43 [ERROR] [ashare_eod_prices] [_get_turnover_data_for_ticker] [ERROR] Failed to fetch data for ticker 600128.SH on date 20240419: HTTPSConnectionPool(host='finance.sina.com.cn', port=443): Max retries exceeded with url: /realstock/company/sh600128/hisdata_klc2/klc_kl.js (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2024-04-21 18:07:23 [ERROR] [ashare_eod_prices] [_get_turnover_data_for_ticker] [ERROR] Failed to fetch data for ticker 689009.SH on date 20240419: No value to decode
+2024-04-21 18:07:37 [ERROR] [ashare_eod_prices] [_get_turnover_data_for_ticker] [ERROR] Failed to fetch data for ticker 300095.SZ on date 20240419: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-04-21 18:07:38 [ERROR] [ashare_eod_prices] [_get_turnover_data_for_ticker] [ERROR] Failed to fetch data for ticker 002783.SZ on date 20240419: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-04-21 18:09:36 [ERROR] [ashare_eod_prices] [_get_turnover_data_for_ticker] [ERROR] Failed to fetch data for ticker 688110.SH on date 20240419: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-04-21 18:09:36 [ERROR] [ashare_eod_prices] [_get_turnover_data_for_ticker] [ERROR] Failed to fetch data for ticker 688248.SH on date 20240419: HTTPSConnectionPool(host='finance.sina.com.cn', port=443): Max retries exceeded with url: /realstock/company/sh688248/hisdata_klc2/klc_kl.js (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2024-04-21 18:09:56 [ERROR] [ashare_eod_prices] [_get_turnover_data_for_ticker] [ERROR] Failed to fetch data for ticker 688312.SH on date 20240419: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-04-21 18:10:22 [ERROR] [ashare_eod_prices] [_get_turnover_data_for_ticker] [ERROR] Failed to fetch data for ticker 001259.SZ on date 20240419: HTTPSConnectionPool(host='stock.finance.sina.com.cn', port=443): Max retries exceeded with url: /stock/api/jsonp.php/var%20KKE_ShareAmount_sz001259=/StockService.getAmountBySymbol?_=20&symbol=sz001259 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2024-04-21 18:39:32 [ERROR] [ashare_eod_prices] [extract_stock_eod_price_daily] [DAILY] ashare_eod_prices:(psycopg2.errors.UniqueViolation) 错误:  重复键违反唯一约束"ashare_eod_prices_pkey"
+DETAIL:  键值"(datetime, ticker)=(2024-04-19, 601882.SH)" 已经存在
 
-[SQL: INSERT INTO sw_indu_eod_prices (index_code, indu_name, datetime, open, high, low, close, volume, amount, pct_change) VALUES (%(index_code__0)s, %(indu_name__0)s, %(datetime__0)s, %(open__0)s, %(high__0)s, %(low__0)s, %(close__0)s, %(volume__0)s, %(am ... 27346 characters truncated ...  %(high__161)s, %(low__161)s, %(close__161)s, %(volume__161)s, %(amount__161)s, %(pct_change__161)s)]
-[parameters: {'low__0': '2535.94', 'close__0': '2577.88', 'amount__0': 10586000000.0, 'volume__0': 1510000000.0, 'datetime__0': datetime.datetime(2024, 4, 17, 8, 0, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800))), 'pct_change__0': '1.89', 'index_code__0': '801010', 'open__0': '2535.98', 'high__0': '2578.74', 'indu_name__0': '农林牧渔', 'low__1': '3147.24', 'close__1': '3241.57', 'amount__1': 42890000000.0, 'volume__1': 4895000000.0, 'datetime__1': datetime.datetime(2024, 4, 17, 8, 0, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800))), 'pct_change__1': '3.57', 'index_code__1': '801030', 'open__1': '3147.51', 'high__1': '3241.74', 'indu_name__1': '基础化工', 'low__2': '2096.50', 'close__2': '2169.09', 'amount__2': 7842000000.0, 'volume__2': 1761000000.0, 'datetime__2': datetime.datetime(2024, 4, 17, 8, 0, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800))), 'pct_change__2': '3.57', 'index_code__2': '801040', 'open__2': '2096.50', 'high__2': '2169.09', 'indu_name__2': '钢铁', 'low__3': '4648.35', 'close__3': '4773.06', 'amount__3': 51851000000.0, 'volume__3': 5349000000.0, 'datetime__3': datetime.datetime(2024, 4, 17, 8, 0, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800))), 'pct_change__3': '2.78', 'index_code__3': '801050', 'open__3': '4648.35', 'high__3': '4773.06', 'indu_name__3': '有色金属', 'low__4': '3083.37', 'close__4': '3197.30', 'amount__4': 98693000000.0, 'volume__4': 6548999999.999999, 'datetime__4': datetime.datetime(2024, 4, 17, 8, 0, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800))), 'pct_change__4': '4.76', 'index_code__4': '801080', 'open__4': '3083.64', 'high__4': '3197.30', 'indu_name__4': '电子' ... 1520 parameters truncated ... 'low__157': '2689.78', 'close__157': '2751.23', 'amount__157': 4072000000.0, 'volume__157': 430999999.99999994, 'datetime__157': datetime.datetime(2024, 4, 17, 8, 0, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800))), 'pct_change__157': '1.77', 'index_code__157': '801991', 'open__157': '2702.11', 'high__157': '2760.45', 'indu_name__157': '航空机场', 'low__158': '2626.01', 'close__158': '2716.68', 'amount__158': 6303000000.0, 'volume__158': 1144000000.0, 'datetime__158': datetime.datetime(2024, 4, 17, 8, 0, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800))), 'pct_change__158': '2.57', 'index_code__158': '801992', 'open__158': '2643.48', 'high__158': '2723.06', 'indu_name__158': '航运港口', 'low__159': '2173.96', 'close__159': '2266.73', 'amount__159': 5747000000.0, 'volume__159': 513000000.0, 'datetime__159': datetime.datetime(2024, 4, 17, 8, 0, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800))), 'pct_change__159': '2.79', 'index_code__159': '801993', 'open__159': '2191.02', 'high__159': '2316.54', 'indu_name__159': '旅游及景区', 'low__160': '1675.84', 'close__160': '1801.79', 'amount__160': 1812000000.0, 'volume__160': 434999999.99999994, 'datetime__160': datetime.datetime(2024, 4, 17, 8, 0, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800))), 'pct_change__160': '8.17', 'index_code__160': '801994', 'open__160': '1681.72', 'high__160': '1810.11', 'indu_name__160': '教育', 'low__161': '882.35', 'close__161': '915.34', 'amount__161': 1584000000.0, 'volume__161': 303000000.0, 'datetime__161': datetime.datetime(2024, 4, 17, 8, 0, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800))), 'pct_change__161': '4.63', 'index_code__161': '801995', 'open__161': '883.24', 'high__161': '919.90', 'indu_name__161': '电视广播Ⅱ'}]
-(Background on this error at: https://sqlalche.me/e/20/f405)
-[DAILY] sw_indu_cons:not enough arguments for format string
-[DAILY] sw_indu_cons:Expecting value: line 1 column 1 (char 0)
-[DAILY] sw_indu_cons:('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-2024-04-18 start update
-沪深A股| 1d | Price Data | 20240418-20240418 | Download Begin
-沪深A股| 1d | Price Data | 20240418-20240418 | Download End, Cost Time =0:01:07.951502 
-沪深A股| 1m | Price Data | 20240418-20240418 | Download Begin
-Error download history Price Data for 688109.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 600517.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 603019.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 601225.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 600824.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 600622.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 600714.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 603380.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 603729.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 601908.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 600446.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 688084.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 600738.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 603861.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 603707.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 600094.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 688403.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 600960.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 688126.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 600418.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 688212.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 601838.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 603518.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 603085.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 603368.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 603339.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 688188.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 603032.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 601339.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 603977.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 603878.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 600569.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 600868.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-Error download history Price Data for 002880.SZ!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
-沪深A股| 1m | Price Data | 20240418-20240418 | Download End, Cost Time =0:30:43.754803 
-沪深A股| Financial Data | 20240418-20240418 | Download Begin
-沪深A股 | Financial Data | 20240418-20240418 | Download End: Cost Time =0:08:45.891863 
-[DAILY] successfully insert ashare_1min,20240418,cost: 0:04:57.686045
-[ERROR] Failed to fetch data for ticker 689009.SH on date 20240418: No value to decode
-[ERROR] Failed to fetch data for ticker 002089.SZ on date 20240418: No value to decode
-[DAILY] successfully inserted ashare_eod_prices, 20240418,cost: 0:25:56.647145, lens= 5116
-[DAILY] ashare_balance 20240418-20240418:未更新
-[DAILY] ashare_cashflow:20240418-20240418 :未更新
-[DAILY] ashare_income: 20240418-20240418 未更新
-[DAILY] successfully insert ashare_capital,20240418-20240418 ,cost: 0:00:04.408754,lens=11
-[DAILY]successfully insert index_eod_prices,2024-04-18-2024-04-18,cost time = 0:00:05.820180,lens=10
-[DAILY] index_weight: 20240418 - 20240418 no data!
-概念板块成分股数据无更新！  2024-04-18 - 2024-04-18
-[Error] 第0次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第1次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第2次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第3次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第4次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第5次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第6次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第7次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第8次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 第9次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
-[Error] 首发新股 未获取到行情数据
-[DAILY] successfully inserted sector_eod_prices 2024-04-18-2024-04-18 data,cost: 0:41:10.006308,len=397
-[DAILY] sw_indu_cons:('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-[DAILY] sw_indu_eod_prices:'volume'
-[DAILY] Successfully insert  ashare_st,20240418 ,cost: 0:00:00.093986,lens=114
-[DAILY]ashare_new_issue :2024-04-18 to 2024-04-18 未更新
-2024-04-18 update done!,cost time:1:59:52.617673
-[DAILY] sw_indu_eod_prices:object of type 'NoneType' has no len()
-[DAILY] sw_indu_cons:('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-[DAILY] sw_indu_cons:list index out of range
-[DAILY] successfully insert sw_indu_eod_prices,2024-04-18-2024-04-18,cost time: 0:00:00.513496,lens=162
-[DAILY] sw_indu_cons:Expecting value: line 1 column 1 (char 0)
-[DAILY] sw_indu_cons:('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-[DAILY] sw_indu_cons:('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-[DAILY] sw_indu_cons:('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-[DAILY] sw_indu_cons:('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-[DAILY] sw_indu_cons:('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[SQL: INSERT INTO ashare_eod_prices (datetime, ticker, open_adj, high_adj, low_adj, close_adj, pre_close_adj, open, high, low, close, volume, amount, settlement_price, open_interest, pre_close, suspend_flag, hfq_factor, free_float_cap, turnover_rate, chang ... 818819 characters truncated ... 55_1500_cum_amount__310)s, %(1455_1500_high__310)s, %(1455_1500_low__310)s, %(1455_1500_vwap__310)s)]
+[parameters: {'low_adj__0': 28.487, '1100_1330_high__0': 28.2, '0945_1000_cum_volume__0': 7279, '0930_1030_vwap__0': 993380.6733333333, '1300_1400_cum_volume__0': 7143, '0930_1000_low__0': 27.6, '1300_1500_high__0': 28.2, 'down_limit_price__0': 25.7, '1300_1305_cum_volume__0': 723, 'high_adj__0': 29.637, 'pre_close_adj__0': 29.887, 'datetime__0': '2024-04-19', '0930_1130_high__0': 28.3, 'open__0': 28.3, '1030_1130_cum_volume__0': 6017, '1430_1500_vwap__0': 126160.36333333333, 'open_interest__0': 15, 'low__0': 27.15, '1115_1315_high__0': 28.05, '1100_1330_cum_amount__0': 21960258.0, '0945_1000_high__0': 28.18, '1300_1400_low__0': 27.49, '1300_1400_vwap__0': 199465.81333333332, '1430_1500_low__0': 28.0, '0930_0945_vwap__0': 390528.2266666667, 'up_limit_price__0': 31.41, '1100_1330_cum_volume__0': 7897, '0930_1030_cum_amount__0': 99330535.0, '0945_1000_vwap__0': 202879.34333333332, '1455_1500_cum_volume__0': 1058, '0930_1030_low__0': 27.15, '0930_0945_cum_amount__0': 39059911.0, '1300_1305_high__0': 27.75, 'change__0': -0.4499999999999993, '0930_0935_high__0': 28.3, '0930_1000_cum_amount__0': 57286011.0, 'free_float_marketcap__0': 14668200000.0, '1300_1305_cum_amount__0': 1996495.0, '0930_1030_high__0': 28.3, '1100_1330_low__0': 27.35, '1030_1130_high__0': 27.65, '1455_1500_cum_amount__0': 2969591.0, 'turnover_rate__0': 0.010777886973180077, '0930_0935_low__0': 28.04, '1300_1400_cum_amount__0': 19945482.0, 'avg_price__0': 27.8, '0930_0935_cum_amount__0': 11923225.0, '0930_1030_cum_volume__0': 35775, 'pct_change__0': -1.58, '1100_1330_vwap__0': 219619.56333333332 ... 32555 parameters truncated ... '0930_1000_cum_volume__310': 3998, '1455_1500_low__310': 18.6, 'volume__310': 9240, '0930_1000_high__310': 19.66, 'free_float_cap__310': 70102553.0, 'ticker__310': '688255.SH', '1455_1500_high__310': 18.66, '0930_1130_cum_volume__310': 6076, '1455_1500_vwap__310': 9241.89, '1430_1500_cum_volume__310': 1513, '0930_1000_vwap__310': 76382.84333333334, '1030_1130_vwap__310': 16844.11666666667, 'amplitude_close__310': 1.5, '1115_1315_vwap__310': 5939.09, '0930_0945_high__310': 19.66, 'high__310': 19.66, '1300_1500_vwap__310': 59431.276666666665, '1400_1500_low__310': 18.6, 'open_adj__310': 28.313660000000002, '1030_1130_cum_amount__310': 1682668.0, '0930_1130_vwap__310': 115676.86, 'vwap__310': 175108.13666666666, 'hfq_factor__310': 1.409626, '1430_1500_cum_amount__310': 2824376.0, '1115_1315_cum_volume__310': 315, '1300_1400_high__310': 19.07, '1300_1305_vwap__310': 2075.8133333333335, '1400_1500_vwap__310': 43846.979999999996, 'close__310': 18.65, '0930_0945_low__310': 18.9, '0930_1130_cum_amount__310': 11562084.0, '1115_1315_cum_amount__310': 594603.0, 'close_adj__310': 26.89865, '1400_1500_cum_volume__310': 2341, 'amount__310': 17501801.0, 'limit_status__310': 0, '1400_1500_cum_amount__310': 4382747.0, '0930_0945_cum_volume__310': 2180, '0945_1000_low__310': 18.98, 'pre_close__310': 19.37, 'suspend_flag__310': 0, 'amplitude_low__310': 5.7, '0930_0935_cum_volume__310': 438, 'settlement_price__310': 0.0, '0930_0935_vwap__310': 8478.696666666667, '0945_1000_cum_amount__310': 3718311.0, '1300_1500_cum_volume__310': 3164, '1300_1500_cum_amount__310': 5939706.0, '1030_1130_low__310': 18.72, '0930_1130_low__310': 18.72}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-04-21 18:39:47 [INFO] [ashare_balance] [extract_ashare_balance_daily] [DAILY] ashare_balance 20240419-20240419:未更新
+2024-04-21 18:40:00 [INFO] [ashare_cashflow] [extract_ashare_cashflow_daily] [DAILY] ashare_cashflow:20240419-20240419 :未更新
+2024-04-21 18:40:12 [INFO] [ashare_income] [extract_ashare_income_daily] [DAILY] ashare_income: 20240419-20240419 未更新
+2024-04-21 18:40:24 [INFO] [ashare_capital] [extract_ashare_capital_daily] [DAILY] successfully insert ashare_capital,20240419-20240419 ,cost: 0:00:12.688654,lens=17
+2024-04-21 18:40:36 [ERROR] [index_eod_prices] [exstract_index_eod_prices_daily] [DAILY] index_eod_prices:(psycopg2.errors.UniqueViolation) 错误:  重复键违反唯一约束"index_eod_prices_pkey"
+DETAIL:  键值"(datetime, index_code)=(2024-04-19, 000001.SH)" 已经存在
+
+[SQL: INSERT INTO index_eod_prices (datetime, open, high, low, close, volume, index_code) VALUES (%(datetime__0)s, %(open__0)s, %(high__0)s, %(low__0)s, %(close__0)s, %(volume__0)s, %(index_code__0)s), (%(datetime__1)s, %(open__1)s, %(high__1)s, %(low__1)s ... 789 characters truncated ... datetime__9)s, %(open__9)s, %(high__9)s, %(low__9)s, %(close__9)s, %(volume__9)s, %(index_code__9)s)]
+[parameters: {'datetime__0': datetime.date(2024, 4, 19), 'close__0': 3065.261, 'open__0': 3060.299, 'high__0': 3080.323, 'volume__0': 37554385500, 'low__0': 3055.058, 'index_code__0': '000001.SH', 'datetime__1': datetime.date(2024, 4, 19), 'close__1': 2430.582, 'open__1': 2433.978, 'high__1': 2444.02, 'volume__1': 3888469000, 'low__1': 2424.172, 'index_code__1': '000016.SH', 'datetime__2': datetime.date(2024, 4, 19), 'close__2': 3541.662, 'open__2': 3550.609, 'high__2': 3560.949, 'volume__2': 14728150500, 'low__2': 3529.324, 'index_code__2': '000300.SH', 'datetime__3': datetime.date(2024, 4, 19), 'close__3': 730.562, 'open__3': 741.285, 'high__3': 741.923, 'volume__3': 1660358900, 'low__3': 729.567, 'index_code__3': '000688.SH', 'datetime__4': datetime.date(2024, 4, 19), 'close__4': 5264.389, 'open__4': 5257.01, 'high__4': 5312.151, 'volume__4': 17887021100, 'low__4': 5224.319, 'index_code__4': '000852.SH', 'datetime__5': datetime.date(2024, 4, 19), 'close__5': 5314.867, 'open__5': 5322.359, 'high__5': 5369.954, 'volume__5': 14213421600, 'low__5': 5292.016, 'index_code__5': '000905.SH', 'datetime__6': datetime.date(2024, 4, 19), 'close__6': 3834.11, 'open__6': 3842.69, 'high__6': 3859.638, 'volume__6': 28941572000, 'low__6': 3820.597, 'index_code__6': '000906.SH', 'datetime__7': datetime.date(2024, 4, 19), 'close__7': 9279.46, 'open__7': 9316.976, 'high__7': 9351.956, 'volume__7': 43977363059, 'low__7': 9220.638, 'index_code__7': '399001.SZ', 'datetime__8': datetime.date(2024, 4, 19), 'close__8': 1756.001, 'open__8': 1772.181, 'high__8': 1775.376, 'volume__8': 13955355741, 'low__8': 1740.401, 'index_code__8': '399006.SZ', 'datetime__9': datetime.date(2024, 4, 19), 'close__9': 1686.565, 'open__9': 1688.926, 'high__9': 1700.631, 'volume__9': 43977363059, 'low__9': 1675.219, 'index_code__9': '399106.SZ'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-04-21 18:41:40 [WARNING] [index_weight] [extract_index_weight_daily] [DAILY] index_weight: 20240419 - 20240419 no data!
+2024-04-21 18:42:55 [ERROR] [sector_cons] [extract_sector_cons_daily] [DAILY]sector_cons:HTTPSConnectionPool(host='q.10jqka.com.cn', port=443): Max retries exceeded with url: /gn/index/field/addtime/order/desc/page/22/ajax/1/ (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2024-04-21 18:44:53 [ERROR] [sector_eod_prices] [extract_sector_eod_prices_daily] [DAILY] sector_eod_prices:HTTPSConnectionPool(host='q.10jqka.com.cn', port=443): Max retries exceeded with url: /gn/index/field/addtime/order/desc/page/36/ajax/1/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2024-04-21 18:52:22 [ERROR] [sw_indu_cons] [exstract_sw_indu_cons_daily] [DAILY] sw_indu_cons:HTTPSConnectionPool(host='www.swhyresearch.com', port=443): Max retries exceeded with url: /institute-sw/api/index_publish/details/component_stocks/?swindexcode=801724&page=1&page_size=10000 (Caused by ProtocolError('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None)))
+2024-04-21 18:52:54 [ERROR] [sw_indu_eod_prices] [extract_sw_indu_eod_prices_daily] [DAILY] sw_indu_eod_prices:HTTPSConnectionPool(host='www.swhyresearch.com', port=443): Max retries exceeded with url: /institute-sw/api/index_publish/history/?page=1&page_size=200&index_type=%E4%B8%80%E7%BA%A7%E8%A1%8C%E4%B8%9A&start_date=2024-04-19&end_date=2024-04-19&index_code=all&sortField=&rule= (Caused by ProtocolError('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None)))
+2024-04-21 18:52:54 [ERROR] [ashare_st] [extract_ashare_st_daily] [DAILY] ashare_st:Expecting value: line 1 column 1 (char 0)
+2024-04-21 18:52:54 [ERROR] [ashare_new_issue] [extract_ashare_new_issue_daily] [DAILY] ashare_new_issue:Expecting value: line 1 column 1 (char 0)
+2024-04-21 18:52:54 [INFO] [etl_daily] [daily_update] 2024-04-19 update done!,cost time:1:52:15.302741
+2024-04-21 19:33:48 [ERROR] [sector_eod_prices] [extract_sector_eod_prices_daily] [DAILY] sector_eod_prices:HTTPSConnectionPool(host='q.10jqka.com.cn', port=443): Max retries exceeded with url: /gn/index/field/addtime/order/desc/page/1/ajax/1/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2024-04-21 20:03:09 [ERROR] [sector_eod_prices] [extract_sector_eod_prices_daily] [DAILY] sector_eod_prices:HTTPSConnectionPool(host='q.10jqka.com.cn', port=443): Max retries exceeded with url: /gn/index/field/addtime/order/desc/page/35/ajax/1/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2024-04-21 20:06:05 [ERROR] [sector_eod_prices] [extract_sector_eod_prices_daily] [DAILY] sector_eod_prices:_get_sector_eod_prices() missing 3 required positional arguments: 'ticker', 'start_date', and 'end_date'
+2024-04-21 20:07:40 [ERROR] [sector_eod_prices] [extract_sector_eod_prices_daily] [DAILY] sector_eod_prices:_get_sector_eod_prices() missing 3 required positional arguments: 'ticker', 'start_date', and 'end_date'
+2024-04-21 20:11:58 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-21 20:12:04 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第1次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-21 20:12:10 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第2次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-21 20:12:17 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第3次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-21 20:12:23 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第4次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-21 20:12:29 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第5次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-21 20:12:35 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第6次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-21 20:12:42 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第7次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-21 20:12:48 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第8次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-21 20:12:54 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第9次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-21 20:12:59 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 首发新股 未获取到行情数据
+2024-04-21 20:45:34 [ERROR] [ashare_eod_prices] [extract_stock_eod_price_daily] [DAILY] ashare_eod_prices:无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-21 20:58:19 [ERROR] [ashare_eod_prices] [_get_turnover_data_for_ticker] [ERROR] Failed to fetch data for ticker 689009.SH on date 20240416: No value to decode
+2024-04-21 21:00:35 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]低空经济 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:00:37 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]肝炎概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:00:38 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]数据确权 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:00:38 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]液冷服务器 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:00:42 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]飞行汽车(eVTOL) 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:00:45 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]统一大市场 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:00:45 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]抗原检测 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:00:45 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]太赫兹 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:00:48 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]冰雪产业 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:00:52 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]MicroLED概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:00:52 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]证金持股 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:00:53 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]猴痘概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:00:55 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]可控核聚变 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:00:59 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]毛发医疗 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:00 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]粮食概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:02 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]国企改革 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:02 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]小米汽车 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:06 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]恒大概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:07 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]存储芯片 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:09 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]深圳国企改革 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:09 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]PEEK材料 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:13 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]华为欧拉 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:15 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]数据要素 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:16 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]上海国企改革 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:16 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]多模态AI 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:20 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]家庭医生 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:22 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]烟草 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:24 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]长安汽车概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:24 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:24 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]央企国企改革 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:27 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]华为鲲鹏 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:32 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]短剧游戏 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:32 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]MLOps概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:32 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]PET铜箔 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:34 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]低辐射玻璃（Low-E） 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:39 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]智能座舱 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:40 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]电力物联网 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:40 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]AIGC概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:41 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]国资云 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:47 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]华为昇腾 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:47 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]ERP概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:47 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]高压氧舱 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:48 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]电子身份证 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:54 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]新型工业化 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:55 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]DRG/DIP 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:55 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]Web3.0 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:01:56 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]数字经济 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:03:05 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]钙钛矿电池 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:03:06 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]固态电池 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:03:06 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:03:06 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]一季报预增 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:07:46 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:07:49 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:07:52 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:07:56 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]阿尔茨海默概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:07:56 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]算力租赁 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:07:57 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]空间计算 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:07:58 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]一季报预增 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:00 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]核污染防治 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:01 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]MR（混合现实） 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:01 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]宁德时代概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:04 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]英伟达概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:05 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]脑机接口 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:05 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]液冷服务器 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:05 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]同花顺中特估100 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:05 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]太赫兹 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:06 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]猴痘概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:06 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]存储芯片 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:07 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]粮食概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:09 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]MLOps概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:09 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]烟草 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:09 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]电力物联网 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:09 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]DRG/DIP 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:09 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]超导概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:10 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]ERP概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:10 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]6G概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:10 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]数据要素 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:17 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]阿尔茨海默概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:17 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]算力租赁 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:17 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]时空大数据 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:18 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]空间计算 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:18 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]一季报预增 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:56 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]成飞概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:08:59 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]抗病毒面料 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:00 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]数据确权 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:00 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]AIGC概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:00 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]高压氧舱 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:01 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]PET铜箔 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:01 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]抗原检测 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:03 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]国企改革 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:04 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]Web3.0 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:05 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]创新药 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:07 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]有机硅概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:07 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]信创 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:07 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]空气能热泵 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:09 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]先进封装 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:17 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]TOPCON电池 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:18 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]减速器 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:19 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]生物质能发电 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:19 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]钙钛矿电池 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:20 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]一体化压铸 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:20 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]F5G概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:20 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]成飞概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:22 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]AIGC概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:22 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]高压氧舱 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:24 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]抗病毒面料 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:24 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]Web3.0 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:25 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]数据确权 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:26 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]抗原检测 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:26 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]创新药 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:26 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]PET铜箔 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:28 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]有机硅概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:28 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]国企改革 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:28 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]信创 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:28 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]噪声防治 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:28 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]空气能热泵 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:28 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]露营经济 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:29 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]超超临界发电 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:29 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]比亚迪概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:33 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]先进封装 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:41 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]TOPCON电池 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:41 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]减速器 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:43 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]AIGC概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:43 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]生物质能发电 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:43 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]钙钛矿电池 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:43 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]一体化压铸 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:43 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]高压氧舱 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:44 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]成飞概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:44 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]F5G概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:45 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]Web3.0 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:47 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]创新药 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:49 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]抗病毒面料 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:49 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]有机硅概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:49 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]信创 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:50 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]空气能热泵 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:50 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]数据确权 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:51 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]PET铜箔 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:51 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]抗原检测 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:53 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]国企改革 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:54 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]露营经济 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:54 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]超超临界发电 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:55 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]比亚迪概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:55 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]噪声防治 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:09:59 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]先进封装 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:04 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]肝炎概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:05 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]减速器 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:05 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]统一大市场 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:06 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]TOPCON电池 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:06 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]毛发医疗 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:06 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]生物质能发电 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:07 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]一体化压铸 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:07 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]钙钛矿电池 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:08 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]F5G概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:08 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]MicroLED概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:08 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]恒大概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:10 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]家庭医生 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:10 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]华为鲲鹏 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:11 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]低辐射玻璃（Low-E） 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:14 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]华为欧拉 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:15 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]国资云 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:16 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]电子身份证 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:16 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]数字经济 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:19 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]金属铅 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:19 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]露营经济 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:19 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]超超临界发电 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:20 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]噪声防治 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:21 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]比亚迪概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:24 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]托育服务 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:25 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]肝炎概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:25 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]统一大市场 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:27 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]毛发医疗 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:28 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]跨境支付（CIPS） 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:29 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]恒大概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:29 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]中俄贸易概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:30 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]俄乌冲突概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:30 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]东数西算（算力） 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:31 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]智慧灯杆 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:31 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]MicroLED概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:31 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]土壤修复 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:31 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]家庭医生 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:31 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]低辐射玻璃（Low-E） 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:32 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]华为鲲鹏 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:39 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]华为欧拉 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:40 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]国资云 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:41 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]电子身份证 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:42 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]数字经济 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:44 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]金属铅 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:44 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]股权转让 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:45 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]民爆概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:45 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]PCB概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:46 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]抖音概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:46 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]统一大市场 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:46 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]肝炎概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:48 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]毛发医疗 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:48 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]托育服务 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:51 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]恒大概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:52 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]跨境支付（CIPS） 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:52 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]家庭医生 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:53 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]低辐射玻璃（Low-E） 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:53 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]华为鲲鹏 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:53 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]中俄贸易概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:54 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]俄乌冲突概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:54 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]东数西算（算力） 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:54 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]智慧灯杆 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:55 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]MicroLED概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:10:55 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]土壤修复 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:04 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]华为欧拉 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:04 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]国资云 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:06 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]电子身份证 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:07 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]数字经济 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:07 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]硅能源 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:07 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]重组蛋白 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:09 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]电子纸 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:09 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]金属铅 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:09 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]民爆概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:11 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]PCB概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:11 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]股权转让 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:11 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]抖音概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:12 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]幽门螺杆菌概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:12 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]托育服务 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:13 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]预制菜 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:14 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]沪股通 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:14 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]柔性直流输电 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:15 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]跨境支付（CIPS） 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:17 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]俄乌冲突概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:17 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]中俄贸易概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:18 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]智慧灯杆 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:18 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]土壤修复 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:18 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]东数西算（算力） 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:19 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]汽车热管理 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:29 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]重组蛋白 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:29 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]高压快充 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:29 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]硅能源 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:29 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]EDR概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:30 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]电子纸 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:31 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]新股与次新股 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:31 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]新型烟草 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:33 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]幽门螺杆菌概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:34 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]民爆概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:35 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]预制菜 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:35 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]沪股通 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:35 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]柔性直流输电 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:35 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]数据安全 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:36 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]抖音概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:36 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]股权转让 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:36 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]PCB概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:38 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]虚拟数字人 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:40 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]智能制造 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:40 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]换电概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:40 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]WiFi 6 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:41 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]培育钻石 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:42 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]虚拟电厂 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:42 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]绿色电力 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:43 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]汽车热管理 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:50 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]重组蛋白 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:51 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]硅能源 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:51 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]电子纸 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:54 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]幽门螺杆菌概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:54 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]EDR概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:55 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]高压快充 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:55 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]预制菜 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:56 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]柔性直流输电 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:56 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]沪股通 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:57 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]新型烟草 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:11:57 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]新股与次新股 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:00 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]抽水蓄能 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:01 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]数据安全 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:01 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]PVDF概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:02 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]NFT概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:02 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]元宇宙 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:03 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]智能制造 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:03 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]虚拟数字人 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:03 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]换电概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:03 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]WiFi 6 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:05 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]培育钻石 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:05 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]虚拟电厂 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:06 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]绿色电力 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:06 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]汽车热管理 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:11 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]北交所概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:12 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]工业母机 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:13 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]专精特新 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:15 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]钠离子电池 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:16 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]CRO概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:17 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]MCU芯片 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:17 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]牙科医疗 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:20 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]EDR概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:20 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]高压快充 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:22 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]新股与次新股 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:22 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]新型烟草 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:25 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]抽水蓄能 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:26 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]数据安全 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:27 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]换电概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:27 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]PVDF概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:27 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]智能制造 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:27 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]WiFi 6 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:27 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]元宇宙 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:28 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]NFT概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:28 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]虚拟数字人 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:29 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]培育钻石 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:29 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]虚拟电厂 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:29 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]绿色电力 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:30 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]共同富裕示范区 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:32 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]北交所概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:33 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]工业母机 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:34 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]专精特新 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:36 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]钠离子电池 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:37 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]CRO概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:38 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]MCU芯片 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:38 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]牙科医疗 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:45 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]鸿蒙概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:46 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]天然气 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:47 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]食品安全 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:48 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]新材料概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:50 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]期货概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:50 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]生态农业 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:50 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]抽水蓄能 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:50 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]特钢概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:52 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]农业种植 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:52 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]PVDF概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:52 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]华为汽车 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:53 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]北交所概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:53 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]共同富裕示范区 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:53 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]中芯国际概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:53 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]储能 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:53 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]元宇宙 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:53 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]猪肉 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:53 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]NFT概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:54 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]工业母机 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:55 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]专精特新 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:58 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]钠离子电池 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:58 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]CRO概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:59 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]MCU芯片 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:12:59 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]牙科医疗 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:10 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]鸿蒙概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:11 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]天然气 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:12 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]食品安全 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:13 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]新材料概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:14 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]特钢概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:14 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]期货概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:14 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]生态农业 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:14 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]数据中心 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:15 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]光伏建筑一体化 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:15 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]光刻胶 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:16 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]华为汽车 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:16 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]农机 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:16 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]共同富裕示范区 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:16 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]中芯国际概念 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:16 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]储能 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:17 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]农业种植 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:17 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]碳中和 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:13:18 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]猪肉 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:15:09 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:15:09 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]高股息精选 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:15:09 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]AI语料 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:15:09 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]铜缆高速连接 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:15:15 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:15:15 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]AI语料 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:15:15 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]铜缆高速连接 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:15:15 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]高股息精选 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:15:21 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:15:21 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]AI语料 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:15:21 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]铜缆高速连接 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:15:21 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]高股息精选 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:16:24 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:16:25 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]铜缆高速连接 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:16:25 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]AI语料 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:16:26 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]高股息精选 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:23:07 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]铜缆高速连接 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:23:08 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]高股息精选 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:23:08 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:23:08 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]AI语料 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:23:11 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]AI PC 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:24:56 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]铜缆高速连接 未获取到行情数据,进行下一次尝试...
+2024-04-21 21:26:39 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:04:20 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:06:12 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]核污染防治 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:06:13 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]宁德时代概念 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:06:13 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]MR（混合现实） 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:06:14 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]脑机接口 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:06:14 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]同花顺中特估100 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:06:14 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]英伟达概念 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:06:15 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error]液冷服务器 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:13 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:13 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 钙钛矿电池 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:13 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 固态电池 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:15 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第1次尝试, 同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:15 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第1次尝试, 钙钛矿电池 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:15 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第1次尝试, 固态电池 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:17 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 一季报预增 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:17 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第2次尝试, 同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:18 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第2次尝试, 钙钛矿电池 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:18 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第2次尝试, 固态电池 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:20 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第3次尝试, 同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:20 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第3次尝试, 钙钛矿电池 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:20 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第3次尝试, 固态电池 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:22 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第1次尝试, 一季报预增 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:22 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第4次尝试, 同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:22 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第4次尝试, 钙钛矿电池 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:22 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第4次尝试, 固态电池 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:24 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第5次尝试, 同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:24 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第5次尝试, 钙钛矿电池 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:08:25 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第5次尝试, 固态电池 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:09:51 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:09:55 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第1次尝试, 同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:09:59 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第2次尝试, 同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:10:03 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第3次尝试, 同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:10:07 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第4次尝试, 同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:10:11 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第5次尝试, 同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:10:15 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第6次尝试, 同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:11:18 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:11:22 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第1次尝试, 同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 10:11:26 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第2次尝试, 同花顺出海50 未获取到行情数据,进行下一次尝试...
+2024-04-22 17:00:13 [INFO] [etl_daily] [daily_update] 2024-04-22 start update
+2024-04-22 17:00:15 [INFO] [download_data_from_xtdata] [download_period_price_data] 沪深A股| 1d | Price Data | 20240422-20240422 | Download Begin
+2024-04-22 17:00:39 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 600684.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:01:29 [INFO] [download_data_from_xtdata] [download_period_price_data] 沪深A股| 1d | Price Data | 20240422-20240422 | Download End, Cost Time =0:01:14.098248 
+2024-04-22 17:01:29 [INFO] [download_data_from_xtdata] [download_period_price_data] 沪深A股| 1m | Price Data | 20240422-20240422 | Download Begin
+2024-04-22 17:02:57 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 003020.SZ!,func:supplyHistoryData, error:{ "error id" : 10054, "error" : "远程主机强迫关闭了一个现有的连接。", "isNetError" : true }
+2024-04-22 17:02:57 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 603220.SH!,func:supplyHistoryData, error:{ "error id" : 10054, "error" : "远程主机强迫关闭了一个现有的连接。", "isNetError" : true }
+2024-04-22 17:02:57 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300663.SZ!,func:supplyHistoryData, error:{ "error id" : 10054, "error" : "远程主机强迫关闭了一个现有的连接。", "isNetError" : true }
+2024-04-22 17:02:57 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 600521.SH!,func:supplyHistoryData, error:{ "error id" : 10054, "error" : "远程主机强迫关闭了一个现有的连接。", "isNetError" : true }
+2024-04-22 17:02:57 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 601233.SH!,func:supplyHistoryData, error:{ "error id" : 10054, "error" : "远程主机强迫关闭了一个现有的连接。", "isNetError" : true }
+2024-04-22 17:02:57 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002356.SZ!,func:supplyHistoryData, error:{ "error id" : 10054, "error" : "远程主机强迫关闭了一个现有的连接。", "isNetError" : true }
+2024-04-22 17:02:57 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002502.SZ!,func:supplyHistoryData, error:{ "error id" : 10054, "error" : "远程主机强迫关闭了一个现有的连接。", "isNetError" : true }
+2024-04-22 17:02:57 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300997.SZ!,func:supplyHistoryData, error:{ "error id" : 10054, "error" : "远程主机强迫关闭了一个现有的连接。", "isNetError" : true }
+2024-04-22 17:03:01 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300161.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:01 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002119.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:01 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 688150.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:01 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002686.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:01 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300920.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:01 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300049.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:01 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300926.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:01 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000543.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:01 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 601139.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:01 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 603823.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:02 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301171.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:05 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002234.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:05 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 688696.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:05 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300857.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:05 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 603918.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:05 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300042.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:05 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300452.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:05 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301263.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:05 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 001367.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:05 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300069.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:05 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 600872.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:05 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000158.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:05 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301265.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:06 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002141.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:07 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000719.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:09 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 600271.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:09 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301366.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:09 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 600725.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:09 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002665.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:09 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300822.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:09 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002454.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:09 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300952.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:09 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000415.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:11 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000056.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:11 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300439.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:12 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300958.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:13 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 603070.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:13 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 600751.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:13 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002308.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:13 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300823.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:13 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300617.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:13 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002645.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:13 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301313.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:13 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002648.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:13 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301428.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:13 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000938.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:15 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300376.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:15 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300022.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:16 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000525.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:17 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000510.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:17 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300592.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:17 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300188.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:17 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 605289.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:17 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002991.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:17 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300081.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:17 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000593.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:17 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002253.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:17 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 600697.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:19 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000988.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:19 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300988.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:20 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002983.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:21 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300630.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:21 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300593.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:21 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300829.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:21 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 600248.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:21 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300189.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:21 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300010.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:21 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301129.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:21 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 603587.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:22 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002048.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:23 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002135.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:23 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002215.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:24 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301085.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:25 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002407.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:25 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 600653.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:25 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000537.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:25 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002935.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:25 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300856.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:25 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002227.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:25 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002767.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:25 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 601921.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:25 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 001209.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:25 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301318.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:26 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 001358.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:27 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301199.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:27 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300056.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:28 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300605.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:29 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000564.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:30 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300650.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:30 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301367.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:30 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 600210.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:30 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000886.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:30 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 603158.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:30 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300550.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:30 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301078.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:31 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300719.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:31 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002261.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:32 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002432.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:33 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300644.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:34 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300598.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:34 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002420.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:34 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002484.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:34 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000670.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:34 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300092.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:34 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000570.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:34 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002357.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:34 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 688298.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:34 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000869.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:35 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300302.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:35 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301251.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:36 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002029.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:37 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002068.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:38 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300160.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:38 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000822.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:38 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002467.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:38 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002733.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:38 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 603836.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:38 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000045.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:38 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300290.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:38 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 688633.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:38 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300489.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:38 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300809.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:38 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 603886.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:38 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300460.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:39 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300274.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:39 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300960.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:40 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000551.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:42 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000788.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:42 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002328.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:42 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300365.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:42 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002394.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:42 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 688683.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:42 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300624.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:42 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002843.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:42 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002979.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:42 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300938.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:42 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 688228.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:42 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002657.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:43 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002458.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:44 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301225.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:45 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300671.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:46 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301228.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:46 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002586.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:46 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300504.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:46 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000504.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:46 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301338.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:46 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002323.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:46 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 600312.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:46 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300415.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:46 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301109.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:47 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300414.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:47 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002043.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:48 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000785.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:49 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002446.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:50 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002284.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:50 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002413.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:50 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000920.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:50 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300114.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:50 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 600366.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:50 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000031.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:50 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002747.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:50 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000698.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:50 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 600359.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:50 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000735.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:50 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301512.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:51 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002238.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:51 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300200.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:52 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002289.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:53 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 001339.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:54 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300919.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:54 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002008.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:54 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300570.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:54 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301591.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:54 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301018.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:54 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 601857.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:54 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301202.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:54 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002837.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:54 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 600742.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:54 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301295.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:54 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300789.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:55 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002623.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:55 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002037.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:56 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002692.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:57 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300282.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:58 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300440.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:58 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000598.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:58 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301131.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:58 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300311.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:58 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 605398.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:58 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 688372.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:58 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300099.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:58 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300698.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:58 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000650.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:58 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002622.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:58 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 001229.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:59 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300488.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:03:59 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300687.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:00 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 003012.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:01 [INFO] [etl_daily] [daily_update] 2024-04-22 start update
+2024-04-22 17:04:01 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300699.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:02 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002677.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:02 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301038.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:02 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300435.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:02 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 603076.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:02 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300796.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:02 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300482.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:02 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 601868.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:02 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 001211.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:02 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 001338.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:02 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002239.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:02 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301566.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:03 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300093.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:04 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002901.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:04 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300899.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:05 [ERROR] [etl_daily] [daily_update] [ETL-DAILY] 无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:05 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301019.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:06 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300434.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:06 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 001318.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:06 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 603997.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:06 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 001236.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:06 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002101.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:06 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 003035.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:06 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300283.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:06 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000715.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:06 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300461.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:06 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002556.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:07 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301208.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:08 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301007.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:08 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002304.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:09 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002869.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:10 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300985.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:10 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 688722.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:10 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000829.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:10 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 001696.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:10 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000809.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:10 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300933.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:10 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 600795.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:10 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002219.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:10 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301116.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:10 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300761.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:10 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002656.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:11 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300939.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:12 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000816.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:12 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000608.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:13 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300380.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:14 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002603.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:14 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002094.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:14 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300670.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:14 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002810.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:14 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002602.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:14 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 603002.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:14 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301276.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:14 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000016.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:14 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300517.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:14 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002139.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:15 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300191.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:16 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301468.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:16 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300528.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:17 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301500.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:18 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002218.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:19 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000973.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:19 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300947.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:19 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 601880.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:19 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300984.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:19 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002175.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:19 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002196.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:19 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000637.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:19 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002522.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:19 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002755.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:20 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301073.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:20 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300133.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:21 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002530.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:22 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002775.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:23 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002864.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:23 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 600162.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:23 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300759.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:23 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300604.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:23 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002848.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:23 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 003041.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:23 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300441.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:23 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 601028.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:23 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301397.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:23 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300715.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:23 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300179.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:24 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002975.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:24 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002370.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:25 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000996.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:26 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300542.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:27 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301162.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:27 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 688620.SH!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:27 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300342.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:27 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301555.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:27 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300071.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:27 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002982.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:27 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000761.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:27 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 300563.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:27 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 301195.SZ!,无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启
+2024-04-22 17:04:36 [INFO] [etl_daily] [daily_update] 2024-04-22 start update
+2024-04-22 17:04:52 [INFO] [download_data_from_xtdata] [download_period_price_data] 沪深A股| 1d | Price Data | 20240422-20240422 | Download Begin
+2024-04-22 17:04:53 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 601608.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
+2024-04-22 17:04:53 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 002803.SZ!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
+2024-04-22 17:04:55 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 000960.SZ!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
+2024-04-22 17:04:55 [ERROR] [download_data_from_xtdata] [download_stock_price] Error download history Price Data for 600493.SH!,func:supplyHistoryData, error:{ "error" : { "ErrorID" : 300000, "ErrorMsg" : "未知错误" } }
+2024-04-22 17:07:27 [INFO] [download_data_from_xtdata] [download_period_price_data] 沪深A股| 1d | Price Data | 20240422-20240422 | Download End, Cost Time =0:02:35.620693 
+2024-04-22 17:07:27 [INFO] [download_data_from_xtdata] [download_period_price_data] 沪深A股| 1m | Price Data | 20240422-20240422 | Download Begin
+2024-04-22 17:27:02 [INFO] [download_data_from_xtdata] [download_period_price_data] 沪深A股| 1m | Price Data | 20240422-20240422 | Download End, Cost Time =0:19:34.883913 
+2024-04-22 17:27:02 [INFO] [download_data_from_xtdata] [download_period_financial_data] 沪深A股| Financial Data | 20240422-20240422 | Download Begin
+2024-04-22 17:38:13 [INFO] [download_data_from_xtdata] [download_period_financial_data] 沪深A股 | Financial Data | 20240422-20240422 | Download End: Cost Time =0:11:10.261183 
+2024-04-22 17:42:53 [INFO] [ashare_1min] [extract_ashare_1min_daily] [DAILY] successfully insert ashare_1min,20240422,cost: 0:04:40.035094
+2024-04-22 17:50:20 [ERROR] [ashare_eod_prices] [_get_turnover_data_for_ticker] [ERROR] Failed to fetch data for ticker 689009.SH on date 20240422: No value to decode
+2024-04-22 18:19:31 [INFO] [ashare_eod_prices] [extract_stock_eod_price_daily] [DAILY] successfully inserted ashare_eod_prices, 20240422,cost: 0:36:37.977960, lens= 5115
+2024-04-22 18:19:34 [INFO] [ashare_balance] [extract_ashare_balance_daily] [DAILY] ashare_balance 20240422-20240422:未更新
+2024-04-22 18:19:37 [INFO] [ashare_cashflow] [extract_ashare_cashflow_daily] [DAILY] ashare_cashflow:20240422-20240422 :未更新
+2024-04-22 18:19:39 [INFO] [ashare_income] [extract_ashare_income_daily] [DAILY] ashare_income: 20240422-20240422 未更新
+2024-04-22 18:19:43 [INFO] [ashare_capital] [extract_ashare_capital_daily] [DAILY] successfully insert ashare_capital,20240422-20240422 ,cost: 0:00:04.016842,lens=31
+2024-04-22 18:19:50 [INFO] [index_eod_prices] [exstract_index_eod_prices_daily] [DAILY]successfully insert index_eod_prices,2024-04-22-2024-04-22,cost time = 0:00:06.379367,lens=10
+2024-04-22 18:19:58 [WARNING] [index_weight] [extract_index_weight_daily] [DAILY] index_weight: 20240422 - 20240422 no data!
+2024-04-22 18:20:38 [ERROR] [sector_cons] [extract_sector_cons_daily] [DAILY]sector_cons:'datetime'
+2024-04-22 18:20:39 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 军工信息化 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:20:40 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第1次尝试, 军工信息化 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:20:41 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第2次尝试, 军工信息化 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:20:43 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第3次尝试, 军工信息化 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:20:44 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第4次尝试, 军工信息化 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:20:45 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第5次尝试, 军工信息化 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:20:46 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第6次尝试, 军工信息化 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:20:48 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第7次尝试, 军工信息化 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:20:49 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第8次尝试, 军工信息化 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:20:51 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第9次尝试, 军工信息化 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:20:52 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 军工信息化 未获取到行情数据
+2024-04-22 18:24:07 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:24:08 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第1次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:24:09 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第2次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:24:11 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第3次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:24:12 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第4次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:24:13 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第5次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:24:15 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第6次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:24:16 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第7次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:24:17 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第8次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:24:19 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第9次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-22 18:24:20 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 首发新股 未获取到行情数据
+2024-04-22 18:56:01 [INFO] [sector_eod_prices] [extract_sector_eod_prices_daily] [DAILY] successfully inserted sector_eod_prices 2024-04-22-2024-04-22 data,cost: 0:35:22.277058,len=402
+2024-04-22 18:59:31 [WARNING] [sw_indu_cons] [exstract_sw_indu_cons_daily] [DAILY] sw_indu_cons:2024-04-22-2024-04-22,no data!
+2024-04-22 18:59:31 [INFO] [sw_indu_cons] [exstract_sw_indu_cons_daily] [DAILY] successfully insert sw_indu_cons,2024-04-22-2024-04-22,cost time: 0:03:30.721005,lens=0
+2024-04-22 18:59:32 [WARNING] [sw_indu_eod_prices] [extract_sw_indu_eod_prices_daily] [DAILY] sw_indu_eod_prices 未更新,2024-04-22-2024-04-22
+2024-04-22 18:59:32 [INFO] [ashare_st] [extract_ashare_st_daily] [DAILY] Successfully insert  ashare_st,20240422 ,cost: 0:00:00.107508,lens=115
+2024-04-22 18:59:39 [INFO] [ashare_new_issue] [extract_ashare_new_issue_daily] [DAILY]ashare_new_issue :2024-04-22 to 2024-04-22 未更新
+2024-04-22 18:59:39 [INFO] [etl_daily] [daily_update] 2024-04-22 update done!,cost time:1:55:02.847754
+2024-04-23 17:00:29 [INFO] [etl_daily] [daily_update] 2024-04-23 start update
+2024-04-23 17:00:31 [INFO] [download_data_from_xtdata] [download_period_price_data] 沪深A股| 1d | Price Data | 20240423-20240423 | Download Begin
+2024-04-23 17:01:50 [INFO] [download_data_from_xtdata] [download_period_price_data] 沪深A股| 1d | Price Data | 20240423-20240423 | Download End, Cost Time =0:01:18.597090 
+2024-04-23 17:01:50 [INFO] [download_data_from_xtdata] [download_period_price_data] 沪深A股| 1m | Price Data | 20240423-20240423 | Download Begin
+2024-04-23 17:36:18 [INFO] [download_data_from_xtdata] [download_period_price_data] 沪深A股| 1m | Price Data | 20240423-20240423 | Download End, Cost Time =0:34:28.365701 
+2024-04-23 17:36:18 [INFO] [download_data_from_xtdata] [download_period_financial_data] 沪深A股| Financial Data | 20240423-20240423 | Download Begin
+2024-04-23 17:47:19 [INFO] [download_data_from_xtdata] [download_period_financial_data] 沪深A股 | Financial Data | 20240423-20240423 | Download End: Cost Time =0:11:00.499846 
+2024-04-23 17:51:49 [INFO] [ashare_1min] [extract_ashare_1min_daily] [DAILY] successfully insert ashare_1min,20240423,cost: 0:04:30.343380
+2024-04-23 17:55:08 [ERROR] [ashare_eod_prices] [_get_turnover_data_for_ticker] [ERROR] Failed to fetch data for ticker 600022.SH on date 20240423: HTTPSConnectionPool(host='finance.sina.com.cn', port=443): Max retries exceeded with url: /realstock/company/sh600022/hisdata_klc2/klc_kl.js (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2024-04-23 18:01:59 [ERROR] [ashare_eod_prices] [_get_turnover_data_for_ticker] [ERROR] Failed to fetch data for ticker 689009.SH on date 20240423: No value to decode
+2024-04-23 18:41:16 [INFO] [ashare_eod_prices] [extract_stock_eod_price_daily] [DAILY] successfully inserted ashare_eod_prices, 20240423,cost: 0:49:27.227587, lens= 5115
+2024-04-23 18:41:20 [INFO] [ashare_balance] [extract_ashare_balance_daily] [DAILY] ashare_balance 20240423-20240423:未更新
+2024-04-23 18:41:23 [INFO] [ashare_cashflow] [extract_ashare_cashflow_daily] [DAILY] ashare_cashflow:20240423-20240423 :未更新
+2024-04-23 18:41:26 [INFO] [ashare_income] [extract_ashare_income_daily] [DAILY] ashare_income: 20240423-20240423 未更新
+2024-04-23 18:41:30 [INFO] [ashare_capital] [extract_ashare_capital_daily] [DAILY] successfully insert ashare_capital,20240423-20240423 ,cost: 0:00:04.384583,lens=13
+2024-04-23 18:41:39 [INFO] [index_eod_prices] [exstract_index_eod_prices_daily] [DAILY]successfully insert index_eod_prices,2024-04-23-2024-04-23,cost time = 0:00:08.576483,lens=10
+2024-04-23 18:42:49 [WARNING] [index_weight] [extract_index_weight_daily] [DAILY] index_weight: 20240423 - 20240423 no data!
+2024-04-23 18:46:15 [WARNING] [sector_cons] [extract_sector_cons_daily] 概念板块成分股数据无更新！  2024-04-23 - 2024-04-23
+2024-04-23 18:50:48 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 冰雪产业 未获取到行情数据,进行下一次尝试...
+2024-04-23 19:03:16 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-23 19:03:19 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第1次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-23 19:03:22 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第2次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-23 19:03:26 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第3次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-23 19:03:31 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第4次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-23 19:03:34 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第5次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-23 19:03:39 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第6次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-23 19:03:42 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第7次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-23 19:03:45 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第8次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-23 19:03:48 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第9次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-23 19:03:49 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 首发新股 未获取到行情数据
+2024-04-23 19:39:39 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 虚拟电厂 未获取到行情数据,进行下一次尝试...
+2024-04-23 19:57:59 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 智能家居 未获取到行情数据,进行下一次尝试...
+2024-04-23 20:06:45 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 智慧政务 未获取到行情数据,进行下一次尝试...
+2024-04-23 20:10:44 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 工业互联网 未获取到行情数据,进行下一次尝试...
+2024-04-23 20:20:14 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 可降解塑料 未获取到行情数据,进行下一次尝试...
+2024-04-23 20:25:01 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 大飞机 未获取到行情数据,进行下一次尝试...
+2024-04-23 20:26:29 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 医疗废物处理 未获取到行情数据,进行下一次尝试...
+2024-04-23 20:28:17 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 网红经济 未获取到行情数据,进行下一次尝试...
+2024-04-23 20:31:26 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 宠物经济 未获取到行情数据,进行下一次尝试...
+2024-04-23 20:32:23 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 新零售 未获取到行情数据,进行下一次尝试...
+2024-04-23 20:45:09 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 网约车 未获取到行情数据,进行下一次尝试...
+2024-04-23 20:47:32 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 燃料电池 未获取到行情数据,进行下一次尝试...
+2024-04-23 20:49:47 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 债转股(AMC概念) 未获取到行情数据,进行下一次尝试...
+2024-04-23 20:51:29 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 电子竞技 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:05:10 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 集成电路概念 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:05:54 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 高铁 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:05:58 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第1次尝试, 高铁 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:06:27 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第2次尝试, 高铁 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:06:55 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第3次尝试, 高铁 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:07:06 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第4次尝试, 高铁 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:08:20 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 医疗器械概念 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:09:13 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 工业大麻 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:10:32 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 航空发动机 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:16:51 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 眼科医疗 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:18:21 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 天津自贸区 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:19:41 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 智能穿戴 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:22:12 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 足球概念 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:35:55 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 世界杯 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:37:36 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 电子商务 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:40:08 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 水利 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:41:18 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 碳纤维 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:48:16 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 军工 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:50:03 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 磷化工 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:51:05 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 生物疫苗 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:52:22 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第1次尝试, 生物疫苗 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:54:18 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第2次尝试, 生物疫苗 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:55:30 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 创投 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:55:59 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第1次尝试, 创投 未获取到行情数据,进行下一次尝试...
+2024-04-23 21:59:04 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 流感 未获取到行情数据,进行下一次尝试...
+2024-04-23 22:01:51 [INFO] [sector_eod_prices] [extract_sector_eod_prices_daily] [DAILY] successfully inserted sector_eod_prices 2024-04-23-2024-04-23 data,cost: 3:15:36.067940,len=399
+2024-04-23 22:16:10 [WARNING] [sw_indu_cons] [exstract_sw_indu_cons_daily] [DAILY] sw_indu_cons:2024-04-23-2024-04-23,no data!
+2024-04-23 22:16:10 [INFO] [sw_indu_cons] [exstract_sw_indu_cons_daily] [DAILY] successfully insert sw_indu_cons,2024-04-23-2024-04-23,cost time: 0:14:19.173433,lens=0
+2024-04-23 22:16:15 [WARNING] [sw_indu_eod_prices] [extract_sw_indu_eod_prices_daily] [DAILY] sw_indu_eod_prices 未更新,2024-04-23-2024-04-23
+2024-04-23 22:16:18 [INFO] [ashare_st] [extract_ashare_st_daily] [DAILY] Successfully insert  ashare_st,20240423 ,cost: 0:00:02.776413,lens=115
+2024-04-23 22:16:30 [INFO] [ashare_new_issue] [extract_ashare_new_issue_daily] [DAILY]ashare_new_issue :2024-04-23 to 2024-04-23 未更新
+2024-04-23 22:16:30 [INFO] [etl_daily] [daily_update] 2024-04-23 update done!,cost time:5:16:00.782597
+2024-04-24 17:00:08 [INFO] [etl_daily] [daily_update] 2024-04-24 start update
+2024-04-24 17:00:10 [INFO] [download_data_from_xtdata] [download_period_price_data] 沪深A股| 1d | Price Data | 20240424-20240424 | Download Begin
+2024-04-24 17:01:25 [INFO] [download_data_from_xtdata] [download_period_price_data] 沪深A股| 1d | Price Data | 20240424-20240424 | Download End, Cost Time =0:01:15.280220 
+2024-04-24 17:01:25 [INFO] [download_data_from_xtdata] [download_period_price_data] 沪深A股| 1m | Price Data | 20240424-20240424 | Download Begin
+2024-04-24 17:35:56 [INFO] [download_data_from_xtdata] [download_period_price_data] 沪深A股| 1m | Price Data | 20240424-20240424 | Download End, Cost Time =0:34:30.974113 
+2024-04-24 17:35:56 [INFO] [download_data_from_xtdata] [download_period_financial_data] 沪深A股| Financial Data | 20240424-20240424 | Download Begin
+2024-04-24 17:48:08 [INFO] [download_data_from_xtdata] [download_period_financial_data] 沪深A股 | Financial Data | 20240424-20240424 | Download End: Cost Time =0:12:11.661997 
+2024-04-24 17:52:33 [INFO] [ashare_1min] [extract_ashare_1min_daily] [DAILY] successfully insert ashare_1min,20240424,cost: 0:04:25.558364
+2024-04-24 18:02:44 [ERROR] [ashare_eod_prices] [_get_turnover_data_for_ticker] [ERROR] Failed to fetch data for ticker 689009.SH on date 20240424: No value to decode
+2024-04-24 18:39:29 [INFO] [ashare_eod_prices] [extract_stock_eod_price_daily] [DAILY] successfully inserted ashare_eod_prices, 20240424,cost: 0:46:55.689812, lens= 5115
+2024-04-24 18:39:33 [INFO] [ashare_balance] [extract_ashare_balance_daily] [DAILY] ashare_balance 20240424-20240424:未更新
+2024-04-24 18:39:35 [INFO] [ashare_cashflow] [extract_ashare_cashflow_daily] [DAILY] ashare_cashflow:20240424-20240424 :未更新
+2024-04-24 18:39:38 [INFO] [ashare_income] [extract_ashare_income_daily] [DAILY] ashare_income: 20240424-20240424 未更新
+2024-04-24 18:39:43 [INFO] [ashare_capital] [extract_ashare_capital_daily] [DAILY] successfully insert ashare_capital,20240424-20240424 ,cost: 0:00:04.195831,lens=13
+2024-04-24 18:39:51 [INFO] [index_eod_prices] [exstract_index_eod_prices_daily] [DAILY]successfully insert index_eod_prices,2024-04-24-2024-04-24,cost time = 0:00:08.430398,lens=10
+2024-04-24 18:40:54 [WARNING] [index_weight] [extract_index_weight_daily] [DAILY] index_weight: 20240424 - 20240424 no data!
+2024-04-24 18:43:23 [WARNING] [sector_cons] [extract_sector_cons_daily] 概念板块成分股数据无更新！  2024-04-24 - 2024-04-24
+2024-04-24 18:54:13 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第0次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-24 18:54:14 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第1次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-24 18:54:15 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第2次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-24 18:54:17 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第3次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-24 18:54:18 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第4次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-24 18:54:19 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第5次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-24 18:54:21 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第6次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-24 18:54:22 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第7次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-24 18:54:23 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第8次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-24 18:54:25 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 第9次尝试, 首发新股 未获取到行情数据,进行下一次尝试...
+2024-04-24 18:54:26 [ERROR] [sector_eod_prices] [_get_sector_eod_prices] [Error] 首发新股 未获取到行情数据
+2024-04-24 19:28:24 [INFO] [sector_eod_prices] [extract_sector_eod_prices_daily] [DAILY] successfully inserted sector_eod_prices 2024-04-24-2024-04-24 data,cost: 0:45:00.664561,len=403
+2024-04-24 19:32:05 [WARNING] [sw_indu_cons] [exstract_sw_indu_cons_daily] [DAILY] sw_indu_cons:2024-04-24-2024-04-24,no data!
+2024-04-24 19:32:05 [INFO] [sw_indu_cons] [exstract_sw_indu_cons_daily] [DAILY] successfully insert sw_indu_cons,2024-04-24-2024-04-24,cost time: 0:03:41.235968,lens=0
+2024-04-24 19:32:06 [WARNING] [sw_indu_eod_prices] [extract_sw_indu_eod_prices_daily] [DAILY] sw_indu_eod_prices 未更新,2024-04-24-2024-04-24
+2024-04-24 19:32:06 [INFO] [ashare_st] [extract_ashare_st_daily] [DAILY] Successfully insert  ashare_st,20240424 ,cost: 0:00:00.127923,lens=117
+2024-04-24 19:32:10 [INFO] [ashare_new_issue] [extract_ashare_new_issue_daily] [DAILY]ashare_new_issue :2024-04-24 to 2024-04-24 未更新
+2024-04-24 19:32:10 [INFO] [etl_daily] [daily_update] 2024-04-24 update done!,cost time:2:32:01.983436
+2024-04-25 17:00:15 [INFO] [etl_daily] [daily_update] 2024-04-25 start update
+2024-04-25 17:00:19 [ERROR] [etl_daily] [daily_update] [ETL-DAILY] 无法连接xtquant服务，请检查QMT-投研版或QMT-极简版是否开启

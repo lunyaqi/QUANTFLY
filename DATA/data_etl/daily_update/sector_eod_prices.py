@@ -31,7 +31,7 @@ def _get_sector_eod_prices(sector_name, ticker, start_date, end_date):
         except Exception as e:
             logger_datacube.error(f'[Error] 第{attempt}次尝试, {sector_name} 未获取到行情数据,进行下一次尝试...')
             # 如果不是最后一次尝试，那么等待一段时间再重试
-            time.sleep(5)
+            time.sleep(1)
             continue
     # 如果是最后一次尝试，那么记录错误并跳过这个概念板块
     logger_datacube.error(f'[Error] {sector_name} 未获取到行情数据')
@@ -52,7 +52,6 @@ def extract_sector_eod_prices_daily(start_date, end_date):
             stock_board_concept_hist_ths_df = _get_sector_eod_prices(sector_name, ticker, start_date,
                                                                      end_date)
             sector_eod_prices_dfs.append(stock_board_concept_hist_ths_df)
-            time.sleep(1)
         sector_eod_prices_df = pd.concat(sector_eod_prices_dfs, ignore_index=True)
         sector_eod_prices_df.columns = ['datetime', 'open', 'high', 'low', 'close', 'volume', 'amount', 'sector_name',
                                         'sector_code']

@@ -1,9 +1,9 @@
+
 import datetime
 import os
 import sys
-
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-
+from Utils.utils import is_trading_day
 from Config.conf import today_str, today_format
 from Utils.logger import logger_datacube
 from daily_update.ashare_1min import extract_ashare_1min_daily as ashare_1min_update
@@ -26,6 +26,9 @@ from download_data.download_data_from_xtdata import download_daily_data
 def daily_update():
     # update daily data
     try:
+        if not is_trading_day(today_str):
+            logger_datacube.warning(f'{today_str} is not a trading day!')
+            return
         start_time = datetime.datetime.now()
         logger_datacube.info(f'{today_format} start update')
 

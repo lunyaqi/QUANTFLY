@@ -55,7 +55,7 @@ def psql_insert_copy(table, conn, keys, data_iter):  # mehod
 def insert_df_to_postgres(df: pd.DataFrame, table_name: str):
     client = PostgresClient()
     df.to_sql(table_name, con=client.engine, index=False, if_exists='append')
-
+    client.engine.dispose()
 
 @singleton
 class PostgresClient(object):

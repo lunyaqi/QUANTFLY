@@ -5,9 +5,11 @@ import math
 import akshare as ak
 import pandas as pd
 import requests
+from requests.adapters import HTTPAdapter
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from tqdm import tqdm
+from urllib3 import Retry
 
 from Utils.Database_connector import insert_df_to_postgres
 from Utils.logger import logger_datacube
@@ -78,6 +80,22 @@ def crawler_index_hist_sw(index_type, start_date, end_date) -> pd.DataFrame:
     :return: 指数历史数据
     :rtype: pandas.DataFrame
     """
+    session = requests.Session()
+
+    # 创建一个Retry对象，设置重试次数和需要重试的HTTP状态码
+    retry = Retry(
+        total=5,  # 总重试次数
+        backoff_factor=1,  # 重试间隔时间
+        status_forcelist=[500, 502, 503, 504]  # 需要重试的HTTP状态码
+    )
+
+    # 创建一个HTTPAdapter对象，设置重试策略
+    adapter = HTTPAdapter(max_retries=retry)
+
+    # 为Session对象设置适配器
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+
     url = 'https://www.swhyresearch.com/institute-sw/api/index_publish/history/?page=1&page_size=200'
     type_dict = {'一级行业': '%E4%B8%80%E7%BA%A7%E8%A1%8C%E4%B8%9A',
                  '二级行业': '%E4%BA%8C%E7%BA%A7%E8%A1%8C%E4%B8%9A'}
@@ -87,7 +105,7 @@ def crawler_index_hist_sw(index_type, start_date, end_date) -> pd.DataFrame:
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
     }
-    r = requests.get(url, headers=headers)
+    r = session.get(url, headers=headers)
     data_json = r.json()
     df = pd.DataFrame(data_json["data"]["results"])
     # driver = webdriver.Edge()  # 替换为你的 IEDriverServer 的路径
@@ -132,12 +150,16 @@ def extract_sw_indu_eod_prices_daily(start_date, end_date):
         sw1_df = crawler_index_hist_sw(index_type='一级行业', start_date=start_date, end_date=end_date)
         sw2_df = crawler_index_hist_sw(index_type='二级行业', start_date=start_date, end_date=end_date)
         sw_total = pd.concat([sw1_df, sw2_df], axis=0, ignore_index=True)
-        sw_total['volume'] = (sw_total['volume'].astype(float) * 10000.0).astype('int64')
-        sw_total['amount'] = (sw_total['amount'].astype(float) * 10000.0).astype('int64')
-        sw_total['datetime'] = pd.to_datetime(sw_total['datetime'])
-        sw_total['datetime'] = sw_total['datetime'].dt.tz_localize(None)
-        if start_date==end_date:
-            sw_total['datetime'] = convert_to_datetime(start_date)
+        if sw_total.empty:
+            logger_datacube.warning(f'[DAILY] sw_indu_eod_prices 未更新,{start_date}-{end_date}')
+            return
+        sw_total['volume'] = (sw_total['volume'].astype(float) * 100000000.0).astype('str')
+        sw_total['amount'] = (sw_total['amount'].astype(float) * 100000000.0).astype('str')
+        if start_date == end_date:
+            sw_total['datetime'] = start_date
+        # sw_total['datetime'] = pd.to_datetime(sw_total['datetime'])
+        # sw_total['datetime'] = sw_total['datetime'].dt.tz_localize(None)
+
         # 插入数据库
         insert_df_to_postgres(sw_total, table_name='sw_indu_eod_prices')
         end_time = datetime.datetime.now()

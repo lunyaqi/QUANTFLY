@@ -1,18 +1,23 @@
 import datetime
 import math
 import os
-import statsmodels.api as sm
+import time
+
 import akshare as ak
 import h5py
-import pandas as pd
 import numpy as np
-import pymysql
+import pandas as pd
+import statsmodels.api as sm
+
 from Utils import logger
-import time
+
+
+def assert_msg(condition, msg):
+    if not condition: raise Exception(msg)
 
 
 def add_exchange_suffix(ticker):
-    if ticker.startswith('60') or ticker.startswith('90') or ticker.startswith('68') :
+    if ticker.startswith('60') or ticker.startswith('90') or ticker.startswith('68'):
         return ticker + '.SH'
     elif ticker.startswith('0') or ticker.startswith('3'):
         return ticker + '.SZ'
@@ -22,6 +27,8 @@ def add_exchange_suffix(ticker):
         return ticker + '.BJ'
     else:
         return ticker
+
+
 def convert_datetime_column_format(df, column_name=None):
     if column_name:
         df = df.rename(columns={column_name: 'datetime'})
@@ -260,8 +267,13 @@ def is_trading_day(date):
 
 def _is_trading_date_for_int(dt, check=True):
     # 这边不能写死
-    date_all = pd.read_csv('..\local_mktTradeDays.csv')
-    date_list = list(date_all['date'])
+    date_all = ak.tool_trade_date_hist_sina()
+    date_all['trade_date'] = pd.to_datetime(date_all['trade_date'])
+
+    # 将日期转换为整数
+    date_all['trade_date'] = date_all['trade_date'].dt.strftime('%Y%m%d').astype(int)
+
+    date_list = list(date_all['trade_date'].astype(str).astype(int))
     if dt in date_list:
         return True
     else:
